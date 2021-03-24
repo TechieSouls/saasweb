@@ -1,0 +1,10 @@
+CRITICAL - 2021-03-17 23:18:07 --> Undefined variable: firstName
+#0 /Library/WebServer/Documents/saas-dev/app/Views/templates/email-template.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 4, Array)
+#1 /Library/WebServer/Documents/saas-dev/system/View/View.php(246): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/saas-dev/system/Common.php(1119): CodeIgniter\View\View->render('templates/email...', Array, true)
+#3 /Library/WebServer/Documents/saas-dev/app/Controllers/Saas.php(211): view('templates/email...')
+#4 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(918): App\Controllers\Saas->email()
+#5 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saas))
+#6 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/saas-dev/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

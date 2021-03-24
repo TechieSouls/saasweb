@@ -1,0 +1,172 @@
+/* Custom Colors STARTS */
+@import url(../../assets/fonts/OleoScript/OleoScript.css);
+
+.text-color-666 {color : #666666 !important;}
+.text-color-333 {color: #333333 !important;}
+.text-color-3366{color: #333366 !important;}
+.bg-color-397DD6 {background-color: #397DD6 !important;}
+
+/* Custom Colors ENDS*/
+
+/*   Height/Width STARTS    */
+.height-100 {
+    height: 100px;
+  }
+  
+  .height-200 {
+    height: 200px;
+  }
+  .height-300 {
+    height: 300px;
+  }
+  .height-400 {
+    height: 400px;
+  }
+  
+  .width-100 {
+    width: 100px;
+  }
+  
+  .width-200 {
+    width: 200px;
+  }
+  .width-300 {
+    width: 300px;
+  }
+/*   Height/Width ENDS    */
+
+
+/*  Margins  */
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+
+/*   Login Screen STARTS */
+
+.copyright-div {
+  margin-top: 60px;
+  margin-left: 0px;
+  bottom: 20px;
+  position: absolute;
+  
+}
+
+.invalid-custom-tooltip {
+    max-width: 100%;
+    padding: 0.4rem 0.5rem;
+    margin-top: .1rem;
+    font-size: 0.71137rem;
+    line-height: 1.5;
+    color: #397DD6;
+    background-color: #E9EDF2;
+    border-radius: 0.25rem; 
+}
+
+.invalid-custom-tooltip i {
+    vertical-align: middle;
+}
+/* */
+
+.b-14{
+  border-radius: 14px;
+}
+.f-13 {
+  font-size: 13px !important;
+}
+.get-heading {
+  font-family: 'Oleo Script';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.f-36 {
+  font-family: 'Nunito';
+  font-size: 36px;
+}
+.mb-2-2{
+margin-bottom: 2.2rem !important;
+}
+.left-img{
+  background: aliceblue; 
+  background-size: cover;
+  background-image: url(../../assets/images/left-pic.png);
+  width: 100%;
+  object-fit: cover;
+}
+select {
+  background: transparent;
+  background-image: url(../../assets/images/down-arrow.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 95% !important;
+  background-position-y: 14px !important;
+}
+.logo-dim img{
+  width: 211px !important;
+  height: 127px !important;
+  margin-left: -35px;
+}
+/* dashboard */
+.layout-sidebar-large .main-header .logo, .layout-sidebar-large .main-header .logo img{
+  width:119px !important;
+}
+/*steps page */
+.carousel-indicators .active{
+  background-color: #397DD6 !important;
+}
+.bg-steps-green{
+  background-color: #4CAF50 !important;
+}
+.carousel-indicators li.active.bg-steps-green{
+  background-color: #FAFAFA !important;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .f-30{
+    font-size: 30px !important;
+  }
+  .f-26{
+    font-size: 26px !important;
+  }
+  .f-14{
+    font-size: 14px !important;
+  }
+  .f-12{
+    font-size: 12px !important;
+  }
+  .f-50{
+    font-size:50px !important;
+  }
+  .f-20{
+    font-size: 20px !important;
+  }
+  .left-img {
+    width: 100%;
+    height: 250px;
+  }
+  .copyright-div {
+  position: unset;
+  }
+  .tc-div{
+    margin-left:2rem !important;
+  }
+  button.close{
+    margin-top: 8px !important;
+    margin-right: -8px !important;
+  }
+  .copy-text{
+    text-align: unset !important;
+  }
+
+  /* dashboard */
+  .layout-sidebar-large .main-header .logo, .layout-sidebar-large .main-header .logo img{
+    width:119px !important;
+  }
+}
+
+
+
+

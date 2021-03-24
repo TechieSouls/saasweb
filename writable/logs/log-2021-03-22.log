@@ -1,0 +1,31 @@
+CRITICAL - 2021-03-22 07:54:51 --> Undefined variable: return
+#0 /Library/WebServer/Documents/saas-dev/app/Controllers/Saas.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 208, Array)
+#1 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(918): App\Controllers\Saas->main()
+#2 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saas))
+#3 /Library/WebServer/Documents/saas-dev/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/saas-dev/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-22 08:56:53 --> Class 'App\Models\AppointmentModel' not found
+#0 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(890): App\Controllers\Saas->__construct()
+#1 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/saas-web/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:15:28 --> Class 'App\Models\TimeSlotModel' not found
+#0 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/saas-web/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:15:40 --> Class 'App\Models\WorkingPatternModel' not found
+#0 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/saas-web/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:15:52 --> Class 'App\Models\FeedbackModel' not found
+#0 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Library/WebServer/Documents/saas-web/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/saas-web/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

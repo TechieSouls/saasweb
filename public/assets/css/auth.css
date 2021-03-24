@@ -1,0 +1,13 @@
+.login-form-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  width: 450px;
+  height: 400px;
+}
+.login-right-section {
+  height: 100%;
+}
