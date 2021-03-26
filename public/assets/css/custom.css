@@ -126,7 +126,7 @@ select {
 .carousel-indicators li.active.bg-steps-green{
   background-color: #FAFAFA !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   /* For mobile phones: */
   .f-30{
     font-size: 30px !important;

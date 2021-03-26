@@ -101,6 +101,12 @@ font-weight: 400;
     background-image: url(../images/footer-shape.png);
     background-repeat: no-repeat;
 }
+.flipster{
+    max-height: 480px;
+}
+ul.flipster__container {
+    min-height: 450px !important;
+}
 @media (max-width: 767px){
    
     .navbar-toggler-icon{

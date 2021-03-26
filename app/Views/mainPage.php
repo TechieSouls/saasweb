@@ -229,8 +229,8 @@
                 <li class="card rounded-0 pb-3">
                     <div class="card-body">
                         <img src="<?php echo base_url(); ?>/public/assets/images/slide-m.png" class="mb-3" />
-                        <p class="text-16 f-14">
-                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+                        <p class="text-16 f-12">
+                            Have you ever heard the expression, "Do not count your chickens before they hatch?" Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
                         </p>
                     </div>
@@ -238,7 +238,7 @@
                 <li class="card rounded-0 pb-3">
                     <div class="card-body">
                         <img src="<?php echo base_url(); ?>/public/assets/images/slide-wasco.png" class="mb-3" />
-                        <p class="text-16 f-14">
+                        <p class="text-16 f-12">
                             Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
                         </p>
@@ -247,7 +247,7 @@
                 <li class="card rounded-0 pb-3">
                     <div class="card-body">
                         <img src="<?php echo base_url(); ?>/public/assets/images/slide-pcg.png" class="mb-3" />
-                        <p class="text-16 f-14">
+                        <p class="text-16 f-12">
                             Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
                         </p>
@@ -271,7 +271,7 @@
     </div><!-- bg-shape -->
 
 
-    <div class="row text-center mt-5 justify-content-center">
+    <div class="row text-center mt-5 justify-content-center p-2">
         <div class="col-lg-8 col-md-10">
         <h3 class="mb-4 text-center text-28 f-26">Learn best practices from<br/> Human Resource experts</h3>
             <p class="text-18 f-14">View All> </p>
@@ -286,7 +286,7 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-1.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Performance<br/> Management</h5>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Management</h5>
                                 <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
@@ -312,7 +312,7 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-3.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Performance<br/> Reviews</h5>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Reviews</h5>
                                 <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
@@ -325,7 +325,7 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-4.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Employee Feedback<br/> Poll Surveys</h5>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Employee Feedback Poll Surveys</h5>
                                 <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 

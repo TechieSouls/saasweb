@@ -44,15 +44,15 @@
                     </div>
          </div>
             <div class="row ml-4 mt-5">
-                <div class="col-md-4 text-white">
+                <div class="col-lg-4 col-md-5 text-white">
                     <h1 class="text-white text-44 mb-4 f-30">Employee Precision</h1>
                     <div class="text-18 mb-5 f-14">Harness deep insights what matters to people at work.
                         Create a faster and sustainable company performance.</div>
-                        <button class="btn bg-color-397DD6 pl-4 pr-4 text-white text-18 mr-2 f-14" type="button">Learn How</button>
-                        <button class="btn btn-outline-primary pl-4 pr-4 text-white text-18 border-white f-14" type="button">Join Survey</button>
+                        <button class="btn bg-color-397DD6 pl-4 pr-4 text-white text-17 mr-2 f-14" type="button">Learn How</button>
+                        <button class="btn btn-outline-primary pl-4 pr-4 text-white text-17 border-white f-14" type="button">Join Survey</button>
                 </div>
-                <div class="col-md-1">&nbsp;</div>
-                <div class="col-md-7 text-center">
+                <!--div class="col-md-1">&nbsp;</div-->
+                <div class="col-lg-7 col-md-6 text-center">
                     <img src="<?php echo base_url(); ?>/public/assets/images/main-page.png" class="img-fluid" width="680px" height="480px" />
                 </div>
             </div>
