@@ -272,7 +272,7 @@
 
 
     <div class="row text-center mt-5 justify-content-center">
-        <div class="col-md-10">
+        <div class="col-lg-8 col-md-10">
         <h3 class="mb-4 text-center text-28 f-26">Learn best practices from<br/> Human Resource experts</h3>
             <p class="text-18 f-14">View All> </p>
             <div class="row justify-content-center text-center">
@@ -286,8 +286,8 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-1.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17">Performance Management</h5>
-                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Performance<br/> Management</h5>
+                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
                     
@@ -299,8 +299,8 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-2.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17">Managing & collecting people</h5>
-                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Managing & collecting people</h5>
+                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
                     
@@ -312,8 +312,8 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-3.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17">Performance Reviews</h5>
-                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Performance<br/> Reviews</h5>
+                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
                     
@@ -325,8 +325,8 @@
                             <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-4.png" class="hr-department-icons"/>
 
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17">Employee Feedback Poll Surveys</h5>
-                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Employee Feedback<br/> Poll Surveys</h5>
+                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
                         
 
                     
@@ -341,7 +341,7 @@
 
 
     <div class="row text-center mt-5 justify-content-center p-3">
-        <div class="col-md-10">
+        <div class="col-lg-8 col-md-10">
                 <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
                 <div class="text-left">
                     <span class="heading"> 1. What are the survey link?</span>

@@ -94,7 +94,8 @@ be <strong>recognised as one of the best companies to work for in Asia!</strong>
             spacing: -0.25,
             nav: false,
             buttons: true,
-            loop:true
+            loop:true,
+            scrollwheel:false
         });
 </script>
 	</body>
