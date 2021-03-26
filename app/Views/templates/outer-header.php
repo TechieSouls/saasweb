@@ -9,6 +9,7 @@
 	<link href="<?php echo base_url(); ?>/public/assets/css/themes/lite-blue.min.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/custom.css?t=<?= time(); ?>" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/main.css?t=<?= time(); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>/public/assets/css/plugins/jquery.flipster.min.css" rel="stylesheet" />
     
 
 </head>
@@ -39,7 +40,7 @@
                     </div>
 
                     <div class="col-md-4 text-right mt-5 mb-mrgn-top-0">
-                            <a class="mr-4 btn btn-outline-primary pl-5 pr-5 text-white text-18 border-white f-14" type="button">Login</a>
+                            <a  href="https://dev.cenesgroup.com/saas-dev/index.php/saas/login" class="mr-4 btn btn-outline-primary pl-5 pr-5 text-white text-18 border-white f-14" type="button">Login</a>
                     </div>
          </div>
             <div class="row ml-4 mt-5">

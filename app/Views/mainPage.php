@@ -29,7 +29,7 @@
 
     <div class="row justify-content-center mt-5">
         <div class="col-md-10 text-center">
-            <h3 class="mb-4 text-center text-32 f-26">Make Real Impact</h3>
+            <h3 class="mb-4 text-center text-28 f-26">Make Real Impact</h3>
             <p class="text-18 f-14">Retain the top talent and avoid unwanted attrition.</p>
             <div class="ul-widget__head justify-content-center border-bottom-0">
                 <div class="ul-widget__head-toolbar">
@@ -126,10 +126,216 @@
             
         </div>
     </div>
+    </div>
 
 
-    <div class="row text-center">
+    <div class="row text-center justify-content-center mt-5" id="bg-shape">
+        <div class="col-md-12 text-center">
+            <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
+            <p class="text-18 f-14">that Meet Your Needs</p>
+            <section class="widget-app w-100" >
+                        <div class="row text-center justify-content-center">
+                            <div class="col-lg-3 col-md-3 mb-4">
+                                <div class="card rounded-0 price-card"> 
+                                    <div class="card-body">
+                                        <div class="text-22 f-weight-400">FREE</div> 
+                                        <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>0</span>
+                                        <p class="text-14 f-12">1-month accessibility</p>
+                                        <p class="text-left d-inline-block line-height-2 text-color-3B4750">
+                                            — Dashboard<br/>
+                                            — Send Surveys<br/>
+                                            — Free 30 survey participants<br/>
+                                            — 35 questions – 1 time<br/>
+                                            — 24/7 Email Support<br/>
+                                            — Real Time result<br/>
+                                            — Scoring system<br/>
+                                            — Regular product updates<br/>
+                                            — View Online Analysis<br/>
+                                            — Export Survey Data<br/>
+                                            — Survey Reminder<br/>
+                                            — Answer validation <br/>
+                                            — Email notification<br/>   
+                                        </p>
+                                        <div class="">
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Create Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 mb-4">
+                            <div class="card rounded-0 price-card"> 
+                                    <div class="card-body">
+                                        <div class="text-22 f-weight-500">PREMIUM</div> 
+                                        <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>420</span>
+                                        <p class="text-14 f-12">12-month accessibility</p>
+                                        <p class="text-left d-inline-block line-height-2 text-color-3B4750">
+                                            — Free 40 survey participants<br/>
+                                            — 140 Questions, 35 renewable<br/> questions per quarter<br/>
+                                            — Add 3 "My Favorite Questions"<br/>
+                                            — Video and image questions<br/>
+                                            — Customized thank you screen<br/>
+                                            — AI Feedback Analysis<br/>
+                                            — Respondent notification<br/>
+                                            — Randomize answer choice<br/>
+                                            — Employee Happiness Scoring<br/>
+                                            — Filter and compare result<br/>
+                                            — All features in FREE plan<br/>
+                                            <br/>
+                                        </p>
+                                        <div class="">
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Buy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 mb-4">
+                            <div class="card rounded-0 price-card"> 
+                                    <div class="card-body">
+                                        <div class="text-22 f-weight-500">PRESTIGE</div> 
+                                        <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>780</span>
+                                        <p class="text-14 f-12">12-month accessibility</p>
+                                        <p class="text-left d-inline-block line-height-2 text-color-3B4750">
+                                            — Free 50 survey participants<br/>
+                                            — Dedicated Account Manager<br/>
+                                            — Online training videos<br/>
+                                            — Free nomination to "Best<br/> Company To Work For In Asia"<br/>
+                                            — All features in Premium plan<br/> 
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                        </p>
+                                        <div class="">
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Buy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+       
+
+
+        </div>
         <div class="col-md-10">
+            <h3 class="mb-4 text-center text-28 f-26">Beyond singular validated<br/> through external metrics.</h3>
+            <p class="text-18 f-14">Real testimonials from imrproved companies</p>
+            
+            <div class="justify-content-center text-center mt-5 pb-2" id="flat">
+            <ul>
+                <li class="card rounded-0 pb-3">
+                    <div class="card-body">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-m.png" class="mb-3" />
+                        <p class="text-16 f-14">
+                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+
+                        </p>
+                    </div>
+                </li>
+                <li class="card rounded-0 pb-3">
+                    <div class="card-body">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-wasco.png" class="mb-3" />
+                        <p class="text-16 f-14">
+                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+
+                        </p>
+                    </div>
+                </li>
+                <li class="card rounded-0 pb-3">
+                    <div class="card-body">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-pcg.png" class="mb-3" />
+                        <p class="text-16 f-14">
+                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+
+                        </p>
+                    </div>
+                </li>
+        </ul>
+    </div>
+   
+        </div> <!-- col-md-10 -->
+        <div class="col-md-10 mt-5 mb-5">
+            <div class="row d-flex justify-content-center text-center p-4" id="bg-rectangle">
+                    <div class="col-md-9 mt-3">
+                        <p class="text-24 text-white text-left f-16">Give your employees a voice and the opportunity<br/> to share their concerns and suggestions</p>
+                    </div>
+                    <div class="col-md-3 text-left mt-3">
+                    <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14">Get Started</a>
+                    </div>
+                
+            </div>
+    </div>
+    </div><!-- bg-shape -->
+
+
+    <div class="row text-center mt-5 justify-content-center">
+        <div class="col-md-10">
+        <h3 class="mb-4 text-center text-28 f-26">Learn best practices from<br/> Human Resource experts</h3>
+            <p class="text-18 f-14">View All> </p>
+            <div class="row justify-content-center text-center">
+
+            
+
+                <div class="col-md-3">
+
+
+                            <div class="hre hr-1">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-1.png" class="hr-department-icons"/>
+
+                            </div>
+                                <h5 class="card-title mt-4 mb-2 text-17">Performance Management</h5>
+                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                        
+
+                    
+                </div>
+                <div class="col-md-3">
+
+
+                            <div class="hre hr-2">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-2.png" class="hr-department-icons"/>
+
+                            </div>
+                                <h5 class="card-title mt-4 mb-2 text-17">Managing & collecting people</h5>
+                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                        
+
+                    
+                </div>
+                <div class="col-md-3">
+
+
+                            <div class="hre hr-3">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-3.png" class="hr-department-icons"/>
+
+                            </div>
+                                <h5 class="card-title mt-4 mb-2 text-17">Performance Reviews</h5>
+                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                        
+
+                    
+                </div>
+                <div class="col-md-3">
+
+
+                            <div class="hre hr-4">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-4.png" class="hr-department-icons"/>
+
+                            </div>
+                                <h5 class="card-title mt-4 mb-2 text-17">Employee Feedback Poll Surveys</h5>
+                                <p class="card-text text-14 text-color-30AABC">Learn More ></p>
+                        
+
+                    
+                </div>
+             
+             
+
+  </div>
+            
         </div>
     </div>
 
@@ -144,10 +350,3 @@
         <div class="col-md-8">
         </div>
     </div>
-
-
-    <div class="row text-center">
-        <div class="col-md-8">
-        </div>
-    </div>
-</div>

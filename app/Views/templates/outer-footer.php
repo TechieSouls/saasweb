@@ -73,6 +73,7 @@ be <strong>recognised as one of the best companies to work for in Asia!</strong>
                         </div>
                     </div>
                 </div>
+
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/jquery-3.3.1.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/bootstrap.bundle.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -86,5 +87,15 @@ be <strong>recognised as one of the best companies to work for in Asia!</strong>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/apexcharts.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/apexSparklineChart.script.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/customizer.script.min.js"></script>
+    <script src="<?php echo base_url(); ?>/public/assets/js/plugins/jquery.flipster.min.js"></script>
+    <script>
+        var flat = $("#flat").flipster({
+            style: 'flat',
+            spacing: -0.25,
+            nav: false,
+            buttons: true,
+            loop:true
+        });
+</script>
 	</body>
 </html>

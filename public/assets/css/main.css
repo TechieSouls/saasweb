@@ -1,4 +1,5 @@
 @import url(../../assets/fonts/OleoScript/OleoScript.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 .header-cover{
     background-image: url(../../assets/images/main-page-header.png);
     height: 600px !important;
@@ -18,6 +19,82 @@
 #ui-widget-body{margin-top:2px;
     background: linear-gradient(180deg, #F4F9FF 26.56%, #E9F2FF 100%);
     box-shadow: 0px 4px 19px 2px rgba(0, 0, 0, 0.25);}
+#bg-shape{
+    background-image: url(../../assets/images/background-shape.png);
+
+}
+.cost-plan{
+    font-family: 'Roboto Mono';
+    font-size: 56px;
+    font-weight: 300;
+}
+.cost-plan sup {
+    top: -2em;
+}
+.f-weight-400{
+font-weight: 400;
+}
+.f-weight-500{
+    font-weight: 500;
+}
+.font-fam-roboto{
+    font-family: 'Roboto Mono';
+}
+.price-card{
+    height: 631px;
+}
+.flipster__button svg {
+    color: #004DFF;
+    font-size: 6px;
+}
+.flipster__item{
+    height: 400px;
+}
+.flipster__item--current{
+    height: 420px;
+}
+#flat .card{
+    width: 400px;
+}
+#bg-rectangle{
+    background-image: url('../images/rectangle-10.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    border-radius: 6px;
+}
+.hre{
+  
+    border-radius: 3px;
+    height: 154px;
+
+}
+.hre img.img-fluid{
+    width: 230px;
+    height: 154px;
+}
+.hr-1{
+    background: linear-gradient(
+        180deg
+        , #77E08E 0%, #77E0B4 100%);
+    
+}
+.hr-2{
+    background: linear-gradient(180deg, #77E0CD 0%, #77D3E0 100%);
+    
+}
+.hr-3{
+    background: linear-gradient(180deg, #55C2FF 0%, #5599FF 100%);
+    
+}
+.hr-4{
+    background: linear-gradient(180deg, #628DFB 0%, #6F62FB 100%);
+    
+}
+
+.hr-department-icons {
+    position:absolute; margin:auto; left:0px; right:0px; bottom:0px; top:0px;    margin-top: 38px;
+}
 @media (max-width: 767px){
    
     .navbar-toggler-icon{
@@ -44,5 +121,8 @@ margin-top: 0px !important;
 }
 #ui-widget-body .card-body{
     display: unset !important;
+}
+#flat .card{
+    width: 300px;
 }
 }
