@@ -41,7 +41,9 @@ font-weight: 400;
     font-family: 'Roboto Mono';
 }
 .price-card{
-    height: 631px;
+    min-height: 631px;
+    max-height: 750px;
+    
 }
 .flipster__button svg {
     color: #004DFF;
@@ -95,6 +97,10 @@ font-weight: 400;
 .hr-department-icons {
     position:absolute; margin:auto; left:0px; right:0px; bottom:0px; top:0px;    margin-top: 38px;
 }
+#shape-footer{
+    background-image: url(../images/footer-shape.png);
+    background-repeat: no-repeat;
+}
 @media (max-width: 767px){
    
     .navbar-toggler-icon{
@@ -124,5 +130,8 @@ margin-top: 0px !important;
 }
 #flat .card{
     width: 300px;
+}
+.text-unset-m{
+    text-align: unset !important;
 }
 }

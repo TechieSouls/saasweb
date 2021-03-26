@@ -135,7 +135,7 @@
             <p class="text-18 f-14">that Meet Your Needs</p>
             <section class="widget-app w-100" >
                         <div class="row text-center justify-content-center">
-                            <div class="col-lg-3 col-md-3 mb-4">
+                            <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-400">FREE</div> 
@@ -162,7 +162,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 mb-4">
+                            <div class="col-lg-3 col-md-4 mb-4">
                             <div class="card rounded-0 price-card"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-500">PREMIUM</div> 
@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 mb-4">
+                            <div class="col-lg-3 col-md-4 mb-4">
                             <div class="card rounded-0 price-card"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-500">PRESTIGE</div> 
@@ -220,7 +220,7 @@
 
 
         </div>
-        <div class="col-md-10">
+        <div class="col-md-10 mt-5">
             <h3 class="mb-4 text-center text-28 f-26">Beyond singular validated<br/> through external metrics.</h3>
             <p class="text-18 f-14">Real testimonials from imrproved companies</p>
             
@@ -340,13 +340,90 @@
     </div>
 
 
-    <div class="row text-center">
-        <div class="col-md-8">
+    <div class="row text-center mt-5 justify-content-center p-3">
+        <div class="col-md-10">
+                <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
+                <div class="text-left">
+                    <span class="heading"> 1. What are the survey link?</span>
+                    <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
+
+                    
+                
+
+                <span class="heading">2. What is the deadline of completing the survey?</span>
+                <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
+                
+
+
+                <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
+                <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
+                
+
+
+                <span class="heading">4. How do I remind my respondents to complete the survey?</span>
+            <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
+            
+
+
+                <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
+            <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
+            
+
+                <span class="heading">6. What language are the Surveys in?</span>
+                <p class="mb-4">......</p>
+
+                </div>
         </div>
     </div>
 
 
-    <div class="row text-center">
-        <div class="col-md-8">
+    <div class="row text-center justify-content-center" id="shape-footer">
+        <div class="col-md-10">
+            <h3 class="mb-4 text-center text-28 f-26 mt-5">Want to explore more?</h3>
+            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 pl-3 pr-3">Get Started&nbsp;&nbsp;&nbsp; ></a>
+            <div class="row mt-4 text-left text-15 justify-content-end p-3">
+                
+                <div class="col-md-2">
+                    <div><a href="#">Pulse</a></div>
+                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
+                    <div><a href="#">Customers</a></div>
+                    <div><a href="#">Request demo</a></div>
+                    <div><a href="#">Pricing</a></div>
+                    <div><a href="#">Integrations</a></div>
+                </div>
+                <div class="col-md-2">
+                <div><a href="#">Pulse</a></div>
+                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
+                    <div><a href="#">Customers</a></div>
+                    <div><a href="#">Request demo</a></div>
+                    <div><a href="#">Pricing</a></div>
+                    <div><a href="#">Integrations</a></div>
+                </div>
+                <div class="col-md-2">
+                <div><a href="#">Pulse</a></div>
+                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
+                    <div><a href="#">Customers</a></div>
+                    <div><a href="#">Request demo</a></div>
+                    <div><a href="#">Pricing</a></div>
+                    <div><a href="#">Integrations</a></div>
+                </div>
+
+            </div>
         </div>
+       
     </div>
+    <div class="row justify-content-center">
+        <div class="col-md-10 border-top"></div>
+    </div>
+    <div class="row justify-content-center">
+            
+        <div class="col-md-5 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
+        <div class="col-md-5 text-right p-4 text-unset-m">
+            <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/twitter.png" /></a>
+            <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/facebook.png" /></a>
+
+            <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/youtube.png" /></a>
+
+            </div>
+    </div>
+    
