@@ -287,7 +287,7 @@
 
                             </div>
                                 <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Management</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
+                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
                         
 
                     
@@ -300,7 +300,7 @@
 
                             </div>
                                 <h5 class="card-title mt-4 mb-2 text-17 text-left">Managing & collecting people</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
+                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
                         
 
                     
@@ -313,7 +313,7 @@
 
                             </div>
                                 <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Reviews</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
+                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
                         
 
                     
@@ -326,7 +326,7 @@
 
                             </div>
                                 <h5 class="card-title mt-4 mb-2 text-17 text-left">Employee Feedback Poll Surveys</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left">Learn More ></p>
+                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
                         
 
                     
@@ -411,11 +411,22 @@
             </div>
         </div>
        
+        <div class="col-md-10 border-top"></div>
+        <!--div class="row border-top"-->
+            <div class="col-md-5 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
+            <div class="col-md-5 text-right p-4 text-left-m">
+                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/twitter.png" /></a>
+                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/facebook.png" /></a>
+
+                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/youtube.png" /></a>
+
+                </div>
+        <!--/div-->
     </div>
     <div class="row justify-content-center">
         <div class="col-md-10 border-top"></div>
     </div>
-    <div class="row justify-content-center">
+    <!--div class="row justify-content-center">
             
         <div class="col-md-5 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
         <div class="col-md-5 text-right p-4 text-unset-m">
@@ -425,5 +436,5 @@
             <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/youtube.png" /></a>
 
             </div>
-    </div>
+    </div-->
     
