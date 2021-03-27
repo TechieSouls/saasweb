@@ -112,6 +112,9 @@ ul.flipster__container {
 }
 @media (max-width: 767px){
    
+    #shape-footer {
+        background-size: contain;
+    }
     .navbar-toggler-icon{
         margin-top: -20px;
         margin-right: 10px;

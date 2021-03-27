@@ -129,11 +129,11 @@
     </div>
 
 
-    <div class="row text-center justify-content-center mt-5" id="bg-shape">
+    <div class="row text-center justify-content-center mt-5">
         <div class="col-md-12 text-center">
             <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
             <p class="text-18 f-14">that Meet Your Needs</p>
-            <section class="widget-app w-100" >
+            <section class="widget-app w-100" id="bg-shape">
                         <div class="row text-center justify-content-center">
                             <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card"> 
