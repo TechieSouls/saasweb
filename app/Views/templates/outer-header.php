@@ -44,7 +44,7 @@
                     </div>
          </div>
             <div class="row ml-4 mt-5">
-                <div class="col-lg-4 col-md-5 text-white mb-2">
+                <div class="col-lg-4 col-md-5 text-white mb-2 fadeInAnimated">
                     <h1 class="text-white text-44 mb-4 f-30">Employee Precision</h1>
                     <div class="text-18 mb-5 f-14">Harness deep insights what matters to people at work.
                         Create a faster and sustainable company performance.</div>
