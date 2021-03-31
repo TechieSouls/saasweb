@@ -29,7 +29,7 @@
 
     <div class="row justify-content-center mt-5">
         <div class="col-md-10 text-center">
-            <h3 class="mb-4 text-center text-28 f-26">Make Real Impact</h3>
+            <h3 class="mb-4 text-center text-28 f-26 mt-5">Make Real Impact</h3>
             <p class="text-18 f-14">Retain the top talent and avoid unwanted attrition.</p>
             <div class="ul-widget__head justify-content-center border-bottom-0">
                 <div class="ul-widget__head-toolbar">
@@ -119,7 +119,7 @@
 
 
                 </div> <!-- tab-pane -->
-                </div> <!-- tab-content -->
+            </div> <!-- tab-content -->
 
 
             </div> <!-- ul-widget__body-->
@@ -130,7 +130,7 @@
 
 
     <div class="row text-center justify-content-center mt-5">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center mt-5">
             <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
             <p class="text-18 f-14">that Meet Your Needs</p>
             <section class="widget-app w-100" id="bg-shape">
@@ -157,7 +157,7 @@
                                             — Email notification<br/>   
                                         </p>
                                         <div class="">
-                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Create Account</a>
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Create Account</a>
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@
                                             <br/>
                                         </p>
                                         <div class="">
-                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Buy</a>
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Buy</a>
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@
                                             <br/>
                                         </p>
                                         <div class="">
-                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16">Buy</a>
+                                            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Buy</a>
                                         </div>
                                     </div>
                                 </div>
@@ -221,8 +221,8 @@
 
         </div>
         <div class="col-md-10 mt-5">
-            <h3 class="mb-4 text-center text-28 f-26">Beyond singular validated<br/> through external metrics.</h3>
-            <p class="text-18 f-14">Real testimonials from imrproved companies</p>
+            <h3 class="mb-4 text-center text-28 f-26 mt-5">Beyond singular validated<br/> through external metrics.</h3>
+            <p class="text-18 f-14">Real testimonials from improved companies</p>
             
             <div class="justify-content-center text-center mt-5 pb-2" id="flat">
             <ul>
@@ -257,12 +257,12 @@
     </div>
    
         </div> <!-- col-md-10 -->
-        <div class="col-md-10 mt-5 mb-5">
-            <div class="row d-flex justify-content-center text-center p-4" id="bg-rectangle">
-                    <div class="col-md-9 mt-3">
-                        <p class="text-24 text-white text-left f-16">Give your employees a voice and the opportunity<br/> to share their concerns and suggestions</p>
+        <div class="col-md-12 mt-5 mb-5">
+            <div class="row d-flex justify-content-center text-center" id="bg-rectangle">
+                    <div class="col-md-6 mt-5 mb-mrgn-top-3 ml-3">
+                        <p class="text-24 text-white text-left f-18">Give your employees a voice and the opportunity<br/> to share their concerns and suggestions</p>
                     </div>
-                    <div class="col-md-3 text-left mt-3">
+                    <div class="col-md-4 text-right mt-5 p-3 mb-mrgn-top-0 text-left-m ml-3">
                     <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14">Get Started</a>
                     </div>
                 
@@ -341,8 +341,11 @@
 
 
     <div class="row text-center mt-5 justify-content-center p-3">
-        <div class="col-lg-8 col-md-10">
-                <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
+    <div class="col-lg-10 col-md-10">
+        <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
+    </div>
+
+        <div class="col-md-6">
                 <div class="text-left">
                     <span class="heading"> 1. What are the survey link?</span>
                     <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
@@ -374,6 +377,9 @@
 
                 </div>
         </div>
+        <div class="col-md-4">
+            <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
+        </div>
     </div>
 
 
@@ -383,7 +389,7 @@
             <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 pl-3 pr-3">Get Started&nbsp;&nbsp;&nbsp; ></a>
             <div class="row mt-4 text-left text-15 justify-content-end p-3">
                 
-                <div class="col-md-2">
+                <div class="col-md-2 hvr-efft">
                     <div><a href="#">Pulse</a></div>
                     <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
                     <div><a href="#">Customers</a></div>
