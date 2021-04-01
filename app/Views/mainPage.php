@@ -280,56 +280,40 @@
             
 
                 <div class="col-md-3">
-
-
-                            <div class="hre hr-1">
-                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-1.png" class="hr-department-icons"/>
-
+                            <div class="text-center justify-content-center d-flex">
+                                <div class="hre hr-1">
+                                    <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-1.png" class="hr-department-icons"/>
+                                </div>
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Management</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
-                        
-
-                    
+                            <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m w-75 w-100-m">Performance Management</h5>
+                            <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
                 </div>
                 <div class="col-md-3">
-
-
+                    <div class="text-center justify-content-center d-flex">
                             <div class="hre hr-2">
-                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-2.png" class="hr-department-icons"/>
-
+                                <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-2.png" class="hr-department-icons"/>
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Managing & collecting people</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
-                        
-
-                    
+                    </div>
+                    <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m">Managing & collecting people</h5>
+                    <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
                 </div>
                 <div class="col-md-3">
-
-
+                        <div class="text-center justify-content-center d-flex">
                             <div class="hre hr-3">
-                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-3.png" class="hr-department-icons"/>
-
+                                <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-3.png" class="hr-department-icons"/>
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left w-75">Performance Reviews</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
-                        
-
-                    
+                        </div>
+                        <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m w-75 w-100-m">Performance Reviews</h5>
+                        <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
                 </div>
                 <div class="col-md-3">
-
-
+                        <div class="text-center justify-content-center d-flex">
                             <div class="hre hr-4">
-                            <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-4.png" class="hr-department-icons"/>
-
+                                <img src="<?php echo base_url(); ?>/public/assets/images/bitmap-4.png" class="hr-department-icons"/>
                             </div>
-                                <h5 class="card-title mt-4 mb-2 text-17 text-left">Employee Feedback Poll Surveys</h5>
-                                <p class="card-text text-14 text-color-30AABC text-left mb-3">Learn More ></p>
-                        
-
-                    
+                        </div>
+                        <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m">Employee Feedback Poll Surveys</h5>
+                        <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
                 </div>
              
              
