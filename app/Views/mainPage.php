@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <h3 class="mb-4 text-center text-32 f-26">Empower Your Team with Right Data</h3>
-            <p class="text-14 f-12">Total Engagement Assessment Model (TEAM) is a robust, proven and scalable assessment tool to help you better understand your workforce. Developed in partnership with leading thought leaders and industry practitioners; TEAM has now been deployed to over 1.5 million employees across Asia and is the core determinant of the HR Asia Best Companies to Work for in Asia, while serving as a valuable assessment tool, feedback loop and validation for your other annual surveys. <br/> <br/>
+            <h3 class="mb-4 text-center text-32 f-26 wow animate__fadeInLeft" data-wow-duration="2s">Empower Your Team with Right Data</h3>
+            <p class="text-14 f-12 wow animate__fadeInRight" data-wow-duration="2s">Total Engagement Assessment Model (TEAM) is a robust, proven and scalable assessment tool to help you better understand your workforce. Developed in partnership with leading thought leaders and industry practitioners; TEAM has now been deployed to over 1.5 million employees across Asia and is the core determinant of the HR Asia Best Companies to Work for in Asia, while serving as a valuable assessment tool, feedback loop and validation for your other annual surveys. <br/> <br/>
 
             The main purpose of taking on the total engagement assessment model is to get deep insights into what drives engagement in your organization—and what could possibly be hindering it. In a nutshell, companies have a good shot at keeping their employees satisfied and retained with the help of employee engagement surveys. <br/> <br/>
 
@@ -11,17 +11,17 @@
     </div>
 
     <div class="row justify-content-center mt-5 text-center img-section">
-        <div class="col-md-3">
-                <img src="<?php echo base_url(); ?>/public/assets/images/ouch-1.png" />
+        <div class="col-md-3 wow animate__flipInY" data-wow-duration="3s">
+                <img class="imgzoomanim" src="<?php echo base_url(); ?>/public/assets/images/ouch-1.png" />
                 <p class="text-24 f-20">CORE</p>
         </div>
 
-        <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>/public/assets/images/ouch-2.png" />
+        <div class="col-md-3 wow animate__flipInX" data-wow-duration="3s">
+            <img class="imgzoomanim" src="<?php echo base_url(); ?>/public/assets/images/ouch-2.png" />
             <p class="text-24 f-20">SELF</p>
         </div>
-        <div class="col-md-4">
-            <img src="<?php echo base_url(); ?>/public/assets/images/ouch-3.png" />
+        <div class="col-md-4 wow animate__flipInY" data-wow-duration="3s">
+            <img class="imgzoomanim" src="<?php echo base_url(); ?>/public/assets/images/ouch-3.png" />
             <p class="text-24 f-20">GROUP</p>
         </div>
     </div>
@@ -29,19 +29,21 @@
 
     <div class="row justify-content-center mt-5">
         <div class="col-md-10 text-center">
-            <h3 class="mb-4 text-center text-28 f-26 mt-5">Make Real Impact</h3>
-            <p class="text-18 f-14">Retain the top talent and avoid unwanted attrition.</p>
+            <div class="wow animate__zoomIn" data-wow-duration="2s">
+                <h3 class="mb-4 text-center text-28 f-26 mt-5">Make Real Impact</h3>
+                <p class="text-18 f-14">Retain the top talent and avoid unwanted attrition.</p>
+            </div>
             <div class="ul-widget__head justify-content-center border-bottom-0">
                 <div class="ul-widget__head-toolbar">
                     <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold ul-widget-nav-tabs-line ul-widget-nav-tabs-line border-0" role="tablist">
-                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ul-widget2-tab1-content" role="tab">Real-time actionable insights</a></li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Efficient action planning</a></li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab3-content" role="tab">Market-specific Landscape</a></li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Customisable Survey</a></li>
+                        <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link active" data-toggle="tab" href="#ul-widget2-tab1-content" role="tab">Real-time actionable insights</a></li>
+                        <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Efficient action planning</a></li>
+                        <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab3-content" role="tab">Market-specific Landscape</a></li>
+                        <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Customisable Survey</a></li>
                     </ul>
                 </div>
             </div> <!--  ul-widget__head -->
-            <div class="ul-widget__body card rounded-0" id="ui-widget-body">
+            <div class="ul-widget__body card rounded-0 wow animate__fadeInUp" data-wow-duration="3s" id="ui-widget-body" >
                 <div class="tab-content">
                     <div class="tab-pane active" id="ul-widget2-tab1-content">
                         <div class="ul-widget1">
@@ -131,12 +133,14 @@
 
     <div class="row text-center justify-content-center mt-5">
         <div class="col-md-12 text-center mt-5">
-            <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
-            <p class="text-18 f-14">that Meet Your Needs</p>
+            <div class="wow animate__zoomIn" data-wow-duration="2s">
+                <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
+                <p class="text-18 f-14">that Meet Your Needs</p>
+            </div>
             <section class="widget-app w-100" id="bg-shape">
                         <div class="row text-center justify-content-center">
                             <div class="col-lg-3 col-md-4 mb-4">
-                                <div class="card rounded-0 price-card"> 
+                                <div class="card rounded-0 price-card wow animate__fadeInBottomLeft" data-wow-duration="2s"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-400">FREE</div> 
                                         <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>0</span>
@@ -163,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 mb-4">
-                            <div class="card rounded-0 price-card animatable bounceIn"> 
+                            <div class="card rounded-0 price-card wow animate__zoomIn" data-wow-duration="2s"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-500">PREMIUM</div> 
                                         <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>420</span>
@@ -189,7 +193,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 mb-4">
-                            <div class="card rounded-0 price-card"> 
+                            <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-500">PRESTIGE</div> 
                                         <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>780</span>
@@ -221,48 +225,48 @@
 
         </div>
         <div class="col-md-10 mt-5">
-            <h3 class="mb-4 text-center text-28 f-26 mt-5">Beyond singular validated<br/> through external metrics.</h3>
-            <p class="text-18 f-14">Real testimonials from improved companies</p>
+            <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s">Beyond singular validated<br/> through external metrics.</h3>
+            <p class="text-18 f-14 wow animate__zoomIn" data-wow-duration="2s">Real testimonials from improved companies</p>
             
             <div class="justify-content-center text-center mt-5 pb-2" id="flat">
-            <ul>
-                <li class="card rounded-0 pb-3">
-                    <div class="card-body">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-m.png" class="mb-3" />
-                        <p class="text-16 f-12">
-                            Have you ever heard the expression, "Do not count your chickens before they hatch?" Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+                <ul>
+                    <li class="card rounded-0 pb-3">
+                        <div class="card-body">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/slide-m.png" class="mb-3" />
+                            <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s">
+                                Have you ever heard the expression, "Do not count your chickens before they hatch?" Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
-                        </p>
-                    </div>
-                </li>
-                <li class="card rounded-0 pb-3">
-                    <div class="card-body">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-wasco.png" class="mb-3" />
-                        <p class="text-16 f-12">
-                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card rounded-0 pb-3">
+                        <div class="card-body">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/slide-wasco.png" class="mb-3" />
+                            <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s">
+                                Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
-                        </p>
-                    </div>
-                </li>
-                <li class="card rounded-0 pb-3">
-                    <div class="card-body">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/slide-pcg.png" class="mb-3" />
-                        <p class="text-16 f-12">
-                            Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card rounded-0 pb-3">
+                        <div class="card-body">
+                            <img src="<?php echo base_url(); ?>/public/assets/images/slide-pcg.png" class="mb-3" />
+                            <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s">
+                                Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to “Count your chicken before they hatch” in your mind. What I mean by this is you have to start seeing yourself completing or obtaining your goal. What you profess, you possess!
 
-                        </p>
-                    </div>
-                </li>
-        </ul>
-    </div>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
    
         </div> <!-- col-md-10 -->
         <div class="col-md-12 mt-5 mb-5">
-            <div class="row d-flex justify-content-center text-center" id="bg-rectangle">
-                    <div class="col-md-6 mt-5 mb-mrgn-top-3 ml-3">
+            <div class="row d-flex justify-content-center text-center wow animate__flipInX" data-wow-duration="2s" id="bg-rectangle">
+                    <div class="col-md-6 mt-5 mb-mrgn-top-3 ml-3 wow animate__slideInLeft" data-wow-duration="2s">
                         <p class="text-24 text-white text-left f-18">Give your employees a voice and the opportunity<br/> to share their concerns and suggestions</p>
                     </div>
-                    <div class="col-md-4 text-right mt-5 p-3 mb-mrgn-top-0 text-left-m ml-3">
+                    <div class="col-md-4 text-right mt-5 p-3 mb-mrgn-top-0 text-left-m ml-3 wow animate__slideInRight" data-wow-duration="2s">
                     <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14">Get Started</a>
                     </div>
                 
@@ -341,43 +345,37 @@
 
 
     <div class="row text-center mt-5 justify-content-center p-3">
-    <div class="col-lg-10 col-md-10">
-        <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
-    </div>
+        <div class="col-lg-10 col-md-10 wow animate__fadeInUp" data-wow-duration="2s">
+            <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
+        </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 wow animate__slideInLeft" data-wow-duration="2s">
                 <div class="text-left">
                     <span class="heading"> 1. What are the survey link?</span>
                     <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
 
                     
+                    <span class="heading">2. What is the deadline of completing the survey?</span>
+                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
+                    
+
+                    <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
+                    <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
+                    
+
+                    <span class="heading">4. How do I remind my respondents to complete the survey?</span>
+                    <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
                 
 
-                <span class="heading">2. What is the deadline of completing the survey?</span>
-                <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
+                    <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
+                    <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
                 
 
-
-                <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
-                <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
-                
-
-
-                <span class="heading">4. How do I remind my respondents to complete the survey?</span>
-            <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
-            
-
-
-                <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
-            <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
-            
-
-                <span class="heading">6. What language are the Surveys in?</span>
-                <p class="mb-4">......</p>
-
+                    <span class="heading">6. What language are the Surveys in?</span>
+                    <p class="mb-4">......</p>
                 </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s">
             <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
         </div>
     </div>
@@ -385,9 +383,9 @@
 
     <div class="row text-center justify-content-center" id="shape-footer">
         <div class="col-md-10">
-            <h3 class="mb-5 text-center text-28 f-26 mt-5">Want to explore more?</h3>
-            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 p-3 mb-5">Get Started&nbsp;&nbsp;&nbsp; ></a>
-            <div class="row mt-5 text-left text-15 justify-content-end p-3">
+            <h3 class="mb-5 text-center text-28 f-26 mt-5 wow animate__slideInUp" data-wow-duration="4s">Want to explore more?</h3>
+            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 p-3 mb-5 wow animate__fadeInUp" data-wow-duration="3s">Get Started&nbsp;&nbsp;&nbsp; ></a>
+            <div class="row mt-5 text-left text-15 justify-content-end p-3 wow animate__slideInLeft"  data-wow-duration="3s">
                 
                 <div class="col-md-2 hvr-efft">
                     <div><a href="#">Pulse</a></div>

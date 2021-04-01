@@ -10,8 +10,7 @@
     <link href="<?php echo base_url(); ?>/public/assets/css/custom.css?t=<?= time(); ?>" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/main.css?t=<?= time(); ?>" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/plugins/jquery.flipster.min.css" rel="stylesheet" />
-
-
+    <link href="<?php echo base_url(); ?>/public/assets/css/plugins/animate.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -47,16 +46,20 @@
                         </div-->
                 </div>
                 <div class="row ml-4 mt-5">
-                    <div class="col-lg-5 col-md-5 text-white mb-2 fadeInAnimated">
+                    <div class="col-lg-5 col-md-5 text-white mb-2">
+                        <div class="wow animate__fadeInDown" data-wow-duration="2s">
+
                         <h1 class="text-white text-44 mb-4 f-30">Employee Precision</h1>
                         <div class="text-18 mb-5 f-14">Harness deep insights what matters to people at work.
                             Create a faster and sustainable company performance.</div>
                             <button class="btn bg-color-397DD6 pl-5 pr-5 pt-3 pb-3 text-white text-17 mr-3 f-14 mobile-btn" type="button">Learn How</button>
                             <button class="btn btn-outline-primary pl-5 pr-5 pt-3 pb-3 text-white text-17 border-white f-14 thick-border mobile-btn" type="button">Join Survey</button>
+
+                        </div>
                     </div>
                     <!--div class="col-md-1">&nbsp;</div-->
                     <div class="col-lg-6 col-md-6 text-right ml-5">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/dashboard.png" class="img-fluid" width="680px" height="480px" />
+                        <img class="imgzoomanim" src="<?php echo base_url(); ?>/public/assets/images/dashboard.png" class="img-fluid" width="680px" height="480px" />
                     </div>
                 </div> <!-- row -->
 

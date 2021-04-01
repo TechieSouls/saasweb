@@ -2,6 +2,7 @@
 
 
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo base_url(); ?>/public/assets/js/plugins/wow.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/bootstrap.bundle.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/script.min.js"></script>
@@ -15,7 +16,18 @@
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/apexSparklineChart.script.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/customizer.script.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/jquery.flipster.min.js"></script>
-    <script src="<?php echo base_url(); ?>/public/assets/js/scripts/main.js"></script>
+
+    <script>
+        $(function(){
+            new WOW().init(); 
+        });
+
+        $(window).on('load', function(){
+            new WOW().init(); 
+        });
+
+    </script>
+
 
     <script>
         var flat = $("#flat").flipster({
