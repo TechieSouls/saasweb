@@ -1,14 +1,31 @@
 @import url(../../assets/fonts/OleoScript/OleoScript.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
   
-.header-cover{
+.header-cover-bg {
     background-image: url(../../assets/images/main-page-header.png);
     height: 550px !important;
+    position: absolute;
+    width: 101%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .user-profile .header-cover::after{
     background: transparent;
 }
-.head{height: 750px;}
+/* .head{height: 750px;} */
+
+.banner-container {
+    margin-top: 7rem !important;
+}
+.dashboardbannerimg {
+    max-width: 680px;
+    max-height: 480px;
+    width: 100%;
+    border-radius: 15px;
+    margin-right: 4rem;
+}
+
 .img-section img {
     width:180px;
     height: 150px;

@@ -16,7 +16,8 @@
 <body>
     <div class="w-100 justify-content-center user-profile bg-transparent">
         <div class="head">
-            <div class="header-cover">
+            <div class="header-cover" style="height:100% !important;">
+                <div class="header-cover-bg"></div>
                 <div class="row">
                     <div class="col-md-12">    
                         <nav class="navbar navbar-expand-lg navbar-light">
@@ -45,8 +46,9 @@
                                 <a  href="https://dev.cenesgroup.com/saas-dev/index.php/saas/login" class="mr-4 btn btn-outline-primary pl-5 pr-5 text-white text-18 border-white f-14" type="button">Login</a>
                         </div-->
                 </div>
-                <div class="row ml-4 mt-5">
-                    <div class="col-lg-5 col-md-5 text-white mb-2">
+
+                <div class="row ml-4 mt-5 banner-container pr-5 ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-white mb-2">
                         <div class="wow animate__fadeInDown" data-wow-duration="2s">
 
                         <h1 class="text-white text-44 mb-4 f-30">Employee Precision</h1>
@@ -58,8 +60,8 @@
                         </div>
                     </div>
                     <!--div class="col-md-1">&nbsp;</div-->
-                    <div class="col-lg-6 col-md-6 text-right ml-5">
-                        <img class="imgzoomanim" src="<?php echo base_url(); ?>/public/assets/images/dashboard.png" class="img-fluid" width="680px" height="480px" />
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+                        <img class="imgzoomanim dashboardbannerimg" src="<?php echo base_url(); ?>/public/assets/images/dashboard.png" class="img-fluid" />
                     </div>
                 </div> <!-- row -->
 
