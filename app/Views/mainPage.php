@@ -12,8 +12,8 @@
 
     <div class="row justify-content-center mt-5 text-center img-section">
         <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>/public/assets/images/ouch-1.png" />
-            <p class="text-24 f-20">CORE</p>
+                <img src="<?php echo base_url(); ?>/public/assets/images/ouch-1.png" />
+                <p class="text-24 f-20">CORE</p>
         </div>
 
         <div class="col-md-3">
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 mb-4">
-                            <div class="card rounded-0 price-card"> 
+                            <div class="card rounded-0 price-card animatable bounceIn"> 
                                     <div class="card-body">
                                         <div class="text-22 f-weight-500">PREMIUM</div> 
                                         <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>420</span>

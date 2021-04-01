@@ -15,6 +15,8 @@
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/apexSparklineChart.script.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/scripts/customizer.script.min.js"></script>
     <script src="<?php echo base_url(); ?>/public/assets/js/plugins/jquery.flipster.min.js"></script>
+    <script src="<?php echo base_url(); ?>/public/assets/js/scripts/main.js"></script>
+
     <script>
         var flat = $("#flat").flipster({
             style: 'flat',

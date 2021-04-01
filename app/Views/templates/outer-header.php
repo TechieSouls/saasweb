@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-12">    
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand mr-5 ml-3" href="#"><img src="<?php echo base_url(); ?>/public/assets/images/logo-blue.png" class="logo"/></a>
+                            <a class="navbar-brand mr-5 ml-3" href="#"><img src="<?php echo base_url(); ?>/public/assets/images/logo.png" class="logo"/></a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                     <div class="navbar-toggler-icon">
                                         <div></div>
@@ -47,7 +47,7 @@
                         </div-->
                 </div>
                 <div class="row ml-4 mt-5">
-                    <div class="col-lg-5 col-md-5 text-white mb-2">
+                    <div class="col-lg-5 col-md-5 text-white mb-2 fadeInAnimated">
                         <h1 class="text-white text-44 mb-4 f-30">Employee Precision</h1>
                         <div class="text-18 mb-5 f-14">Harness deep insights what matters to people at work.
                             Create a faster and sustainable company performance.</div>
