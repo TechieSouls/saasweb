@@ -179,6 +179,11 @@ font-weight: 400;
   
     border-radius: 3px;
     height: 154px;
+    min-width: 230px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 
 }
 .hre img.img-fluid{
@@ -205,7 +210,7 @@ font-weight: 400;
 }
 
 .hr-department-icons {
-    position:absolute; margin:auto; left:0px; right:0px; bottom:0px; top:0px;    margin-top: 38px;
+    /*position:absolute;*/ margin:auto; left:0px; right:0px; bottom:0px; top:0px;    margin-top: 38px;
 }
 #shape-footer{
     background-image: url(../images/footer-shape.png);
@@ -269,6 +274,12 @@ margin-top: 0px !important;
     padding: 5px 20px !important;
 }
 .logo {width:100px; margin-bottom: 20px; }
+.hre{
+  
+    height: 118px;
+    min-width: 180px;
+
+}
 
 }@media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
