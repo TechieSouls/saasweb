@@ -385,9 +385,9 @@
 
     <div class="row text-center justify-content-center" id="shape-footer">
         <div class="col-md-10">
-            <h3 class="mb-4 text-center text-28 f-26 mt-5">Want to explore more?</h3>
-            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 pl-3 pr-3">Get Started&nbsp;&nbsp;&nbsp; ></a>
-            <div class="row mt-4 text-left text-15 justify-content-end p-3">
+            <h3 class="mb-5 text-center text-28 f-26 mt-5">Want to explore more?</h3>
+            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 p-3 mb-5">Get Started&nbsp;&nbsp;&nbsp; ></a>
+            <div class="row mt-5 text-left text-15 justify-content-end p-3">
                 
                 <div class="col-md-2 hvr-efft">
                     <div><a href="#">Pulse</a></div>

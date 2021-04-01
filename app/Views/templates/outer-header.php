@@ -10,7 +10,8 @@
     <link href="<?php echo base_url(); ?>/public/assets/css/custom.css?t=<?= time(); ?>" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/main.css?t=<?= time(); ?>" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/plugins/jquery.flipster.min.css" rel="stylesheet" />
-    
+
+
 
 </head>
 <body>
