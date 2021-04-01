@@ -1,13 +1,115 @@
 @import url(../../assets/fonts/OleoScript/OleoScript.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
+  .animatable {
+    /* initially hide animatable objects */
+    visibility: hidden;
+    
+    /* initially pause animatable objects their animations */
+    -webkit-animation-play-state: paused;   
+    -moz-animation-play-state: paused;     
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;   
+    animation-play-state: paused; 
+  }
+  
+  /* show objects being animated */
+.animated {
+    visibility: visible;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+  
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+  }
+
+  @-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+
+	50% {
+		-moz-transform: scale(1.05);
+	}
+
+	70% {
+		-moz-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: scale(1);
+	}
+}
+
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+
+	50% {
+		-o-transform: scale(1.05);
+	}
+
+	70% {
+		-o-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: scale(1);
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+
+	50% {
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+  
+  
 .header-cover{
     background-image: url(../../assets/images/main-page-header.png);
-    height: 600px !important;
+    height: 550px !important;
 }
 .user-profile .header-cover::after{
     background: transparent;
 }
-.head{height: 800px;}
+.head{height: 750px;}
 .img-section img {
     width:180px;
     height: 150px;
@@ -52,16 +154,6 @@ font-weight: 400;
     transform: scale(1.1);
 }
   
-@keyframes fadeIn {
-    from {opacity: 0}
-    to {opacity: 1}
-  }
-
-  .fadeInAnimated {
-    opacity: 0;
-    animation: fadeIn 5s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
-  }
-  
 .flipster__button svg {
     color: #004DFF;
     font-size: 6px;
@@ -81,6 +173,7 @@ font-weight: 400;
     background-position: center;
     background-origin: content-box;
     border-radius: 6px;
+    height: 167px;
 }
 .hre{
   
@@ -125,6 +218,14 @@ font-weight: 400;
 ul.flipster__container {
     min-height: 450px !important;
 }
+.thick-border{
+    border: 2px solid;
+}
+.hvr-efft a:hover{
+color: #397DD6;
+}
+.logo {width:177px; }
+
 @media (max-width: 767px){
    
     #shape-footer {
@@ -145,6 +246,9 @@ ul.flipster__container {
 .mb-mrgn-top-0{
 margin-top: 0px !important;
 }
+.mb-mrgn-top-3 {
+    margin-top : 0.75rem !important
+}
 .mb-mrgn-right-3{
     margin-right: 1rem !important;
     }
@@ -161,5 +265,14 @@ margin-top: 0px !important;
 .text-left-m{
     text-align: left !important;
 }
+.mobile-btn{
+    padding: 5px 20px !important;
+}
+.logo {width:100px; margin-bottom: 20px; }
 
+}@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
 }
