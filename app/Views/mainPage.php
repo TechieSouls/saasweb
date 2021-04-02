@@ -262,7 +262,7 @@
                 </div>
     
             </div> <!-- col-md-10 -->
-            <div class="col-md-12 col-sm-8 mt-5 mb-5">
+            <div class="col-md-11 col-sm-8 col-lg-11 col-sm-8 mt-5 mb-5">
                 <div class="row d-flex justify-content-center text-center wow animate__flipInX" data-wow-duration="2s" id="bg-rectangle">
                         <div class="col-md-6 mt-5 mb-mrgn-top-3 ml-3 wow animate__slideInLeft" data-wow-duration="2s">
                             <p class="text-24 text-white text-left f-18">Give your employees a voice and the opportunity<br/> to share their concerns and suggestions</p>
@@ -293,7 +293,9 @@
                                 </div>
                             </div>
                             <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m w-75 w-100-m">Performance Management</h5>
-                            <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
+                            <p class="card-text learn-more-txt text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More 
+                                <img src="<?php echo base_url(); ?>/public/assets/images/blue-right-arrow.png"/>
+                            </p>
                 </div>
                 <div class="col-md-3">
                     <div class="text-center justify-content-center d-flex wow animate__flipInX" data-wow-duration="3s">
@@ -302,7 +304,9 @@
                             </div>
                     </div>
                     <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m">Managing & collecting people</h5>
-                    <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
+                    <p class="card-text learn-more-txt text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More 
+                        <img src="<?php echo base_url(); ?>/public/assets/images/blue-right-arrow.png"/>
+                    </p>
                 </div>
                 <div class="col-md-3">
                         <div class="text-center justify-content-center d-flex wow animate__flipInY" data-wow-duration="3s">
@@ -311,7 +315,9 @@
                             </div>
                         </div>
                         <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m w-75 w-100-m">Performance Reviews</h5>
-                        <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
+                        <p class="card-text learn-more-txt text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More 
+                            <img src="<?php echo base_url(); ?>/public/assets/images/blue-right-arrow.png"/>
+                        </p>
                 </div>
                 <div class="col-md-3">
                         <div class="text-center justify-content-center d-flex wow animate__flipInX" data-wow-duration="3s">
@@ -320,7 +326,9 @@
                             </div>
                         </div>
                         <h5 class="card-title mt-4 mb-2 text-17 text-left text-center-m">Employee Feedback Poll Surveys</h5>
-                        <p class="card-text text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More ></p>
+                        <p class="card-text learn-more-txt text-14 text-color-30AABC mb-3 text-left text-center-m">Learn More 
+                            <img src="<?php echo base_url(); ?>/public/assets/images/blue-right-arrow.png"/>
+                        </p>
                 </div>
              
              
@@ -371,7 +379,10 @@
     <div class="row text-center justify-content-center" id="shape-footer">
         <div class="col-md-10">
             <h3 class="mb-5 text-center text-28 f-26 mt-5 wow animate__slideInUp" data-wow-duration="4s">Want to explore more?</h3>
-            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white text-right text-18 f-14 p-3 mb-5 wow animate__fadeInUp" data-wow-duration="3s">Get Started&nbsp;&nbsp;&nbsp; ></a>
+            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 footer-getstarted text-white text-right text-18 f-14 p-3 mb-5 wow animate__fadeInUp" data-wow-duration="3s">Get Started&nbsp;&nbsp;&nbsp; 
+
+                <img src="<?php echo base_url(); ?>/public/assets/images/white-right-arrow.png"/>
+            </a>
             <div class="row mt-5 text-left text-15 justify-content-end p-3 wow animate__slideInLeft"  data-wow-duration="3s">
                 
                 <div class="col-md-2 col-sm-11 hvr-efft">
@@ -406,10 +417,19 @@
         <!--div class="row border-top"-->
             <div class="col-md-5 col-sm-11 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
             <div class="col-md-5 col-sm-11 text-right p-4 text-left-m">
-                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/twitter.png" /></a>
-                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/facebook.png" /></a>
+                <a class="tw-link" href="#">
+                    <img src="<?php echo base_url(); ?>/public/assets/images/twitter-inactive.png" />
+                    <img  class="tw-img-top" src="<?php echo base_url(); ?>/public/assets/images/twitter-active.png" />
+                </a>
+                <a class="fb-link" href="#">
+                    <img src="<?php echo base_url(); ?>/public/assets/images/facebook-inactive.png" />
+                    <img  class="fb-img-top" src="<?php echo base_url(); ?>/public/assets/images/facebook-active.png" />
+                </a>
 
-                <a href="#"><img src="<?php echo base_url(); ?>/public/assets/images/youtube.png" /></a>
+                <a class="yt-link" href="#">
+                    <img src="<?php echo base_url(); ?>/public/assets/images/youtube-inactive.png" />
+                    <img  class="yt-img-top" src="<?php echo base_url(); ?>/public/assets/images/youtube-active.png" />
+                </a>
 
                 </div>
         <!--/div-->

@@ -5,7 +5,7 @@
     background-image: url(../../assets/images/main-page-header.png);
     height: 550px !important;
     position: absolute;
-    width: 101%;
+    width: 102%;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -28,7 +28,15 @@
 
 .img-section img {
     width:180px;
-    height: 150px;
+    /*height: 150px;*/
+}
+
+.footer-getstarted img {
+    width: 15px;
+}
+
+.learn-more-txt img {
+    width: 15px;
 }
 
 /*Zoom In*/
@@ -104,6 +112,7 @@ font-weight: 400;
     background-origin: content-box;
     border-radius: 6px;
     height: 167px;
+    background-size: cover;
 }
 .hre{
   
@@ -161,6 +170,25 @@ color: #397DD6;
 }
 .logo {width:177px; }
 
+.tw-link, .fb-link, .yt-link {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+}
+
+.tw-link .tw-img-top, .fb-link .fb-img-top, .yt-link .yt-img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.tw-link:hover .tw-img-top,  .fb-link:hover .fb-img-top, .yt-link:hover .yt-img-top {
+    display: inline;
+}
+
+
 @media (max-width: 767px){
    
     #shape-footer {
@@ -189,7 +217,7 @@ margin-top: 0px !important;
     }
 .img-section img {
     width:150px;
-    height: 130px;
+    /*height: 130px;*/
 }
 #ui-widget-body .card-body{
     display: unset !important;
