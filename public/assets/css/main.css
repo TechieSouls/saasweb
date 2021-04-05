@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
   
 .header-cover-bg {
+
     background-image: url(../../assets/images/main-page-header.png);
-    height: 550px !important;
+    height: 580px !important;
     position: absolute;
     width: 102%;
     background-repeat: no-repeat;

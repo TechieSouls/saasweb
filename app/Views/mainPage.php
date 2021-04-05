@@ -376,67 +376,6 @@
     </div>
 
 
-    <div class="row text-center justify-content-center" id="shape-footer">
-        <div class="col-md-10">
-            <h3 class="mb-5 text-center text-28 f-26 mt-5 wow animate__slideInUp" data-wow-duration="4s">Want to explore more?</h3>
-            <a href="#" type="button" class="btn btm-primary bg-color-397DD6 footer-getstarted text-white text-right text-18 f-14 p-3 mb-5 wow animate__fadeInUp" data-wow-duration="3s">Get Started&nbsp;&nbsp;&nbsp; 
-
-                <img src="<?php echo base_url(); ?>/public/assets/images/white-right-arrow.png"/>
-            </a>
-            <div class="row mt-5 text-left text-15 justify-content-end p-3 wow animate__slideInLeft"  data-wow-duration="3s">
-                
-                <div class="col-md-2 col-sm-11 hvr-efft">
-                    <div><a href="#">Pulse</a></div>
-                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
-                    <div><a href="#">Customers</a></div>
-                    <div><a href="#">Request demo</a></div>
-                    <div><a href="#">Pricing</a></div>
-                    <div><a href="#">Integrations</a></div>
-                </div>
-                <div class="col-md-2 col-sm-11">
-                <div><a href="#">Pulse</a></div>
-                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
-                    <div><a href="#">Customers</a></div>
-                    <div><a href="#">Request demo</a></div>
-                    <div><a href="#">Pricing</a></div>
-                    <div><a href="#">Integrations</a></div>
-                </div>
-                <div class="col-md-2 col-sm-11">
-                <div><a href="#">Pulse</a></div>
-                    <div><a href="#">Navigator <sub class="text-color-57A4FF text-11 font-weight-500">New</sub></a></div>
-                    <div><a href="#">Customers</a></div>
-                    <div><a href="#">Request demo</a></div>
-                    <div><a href="#">Pricing</a></div>
-                    <div><a href="#">Integrations</a></div>
-                </div>
-
-            </div>
-        </div>
-       
-        <div class="col-md-10 border-top"></div>
-        <!--div class="row border-top"-->
-            <div class="col-md-5 col-sm-11 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
-            <div class="col-md-5 col-sm-11 text-right p-4 text-left-m">
-                <a class="tw-link" href="#">
-                    <img src="<?php echo base_url(); ?>/public/assets/images/twitter-inactive.png" />
-                    <img  class="tw-img-top" src="<?php echo base_url(); ?>/public/assets/images/twitter-active.png" />
-                </a>
-                <a class="fb-link" href="#">
-                    <img src="<?php echo base_url(); ?>/public/assets/images/facebook-inactive.png" />
-                    <img  class="fb-img-top" src="<?php echo base_url(); ?>/public/assets/images/facebook-active.png" />
-                </a>
-
-                <a class="yt-link" href="#">
-                    <img src="<?php echo base_url(); ?>/public/assets/images/youtube-inactive.png" />
-                    <img  class="yt-img-top" src="<?php echo base_url(); ?>/public/assets/images/youtube-active.png" />
-                </a>
-
-                </div>
-        <!--/div-->
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-10 border-top"></div>
-    </div>
     <!--div class="row justify-content-center">
             
         <div class="col-md-5 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>

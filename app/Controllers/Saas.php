@@ -38,4 +38,18 @@ class Saas extends BaseController {
         }
 
 	}
+
+	function contactus() {
+
+		$data['title'] = 'Contact Us';
+		$return = view('templates/outer-header',$data);
+		$return .= view('contactus');
+		$return .= view('templates/outer-footer');
+		if ($return)
+        {
+            return $return;
+        }
+
+	}
+
 }
