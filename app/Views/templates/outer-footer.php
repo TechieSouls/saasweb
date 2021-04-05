@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-md-9 col-sm-11 hvr-efft text-15 text-color-3D5154 justify-content-end ul-widget-app__small-title wow animate__slideInLeft">
                     <div class="text-11"><a href="#">Quick Links</a></div>
-                    <div><a href="#">Why TEAM</a></div>
+                    <div><a href="main">Why TEAM</a></div>
                     <div><a href="#">Feature</a></div>
                     <div><a href="#">Pricing</a></div>
                     <div><a href="#">Request Demo</a></div>

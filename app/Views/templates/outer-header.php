@@ -25,7 +25,7 @@
                     <div class="row">
                         <div class="col-md-12">    
                             <nav class="navbar navbar-expand-lg navbar-light">
-                                <a class="navbar-brand mr-5 ml-3" href=""><img src="<?php echo base_url(); ?>/public/assets/images/logo.png" class="logo"/></a>
+                                <a class="navbar-brand mr-5 ml-3" href="main"><img src="<?php echo base_url(); ?>/public/assets/images/logo.png" class="logo"/></a>
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                         <div class="navbar-toggler-icon">
                                             <div></div>
@@ -35,7 +35,7 @@
                                     </button>
                                     <div class="collapse navbar-collapse justify-content-center text-right" id="navbarNavAltMarkup">
                                         <div class="navbar-nav mr-5 mb-mrgn-right-3">
-                                            <a class="nav-item nav-link text-primary text-16" href="/">Why T.E.A.M?</a>
+                                            <a class="nav-item nav-link text-primary text-16" href="main">Why T.E.A.M?</a>
                                             <a class="nav-item nav-link text-primary text-16" href="#">Features</a>
                                             <a class="nav-item nav-link text-primary text-16" href="#">Pricing</a>
                                             <a class="nav-item nav-link text-primary text-16" href="#">Learning Hub</a>
