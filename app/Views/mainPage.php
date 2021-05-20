@@ -37,9 +37,9 @@
                     <div class="ul-widget__head-toolbar">
                         <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold ul-widget-nav-tabs-line ul-widget-nav-tabs-line border-0" role="tablist">
                             <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link active" data-toggle="tab" href="#ul-widget2-tab1-content" role="tab">Real-time actionable insights</a></li>
-                            <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Efficient action planning</a></li>
-                            <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab3-content" role="tab">Market-specific Landscape</a></li>
-                            <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Customisable Survey</a></li>
+                            <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Market specific landscape</a></li>
+                            <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab3-content" role="tab">Employee feedback analysis</a></li>
+                            <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Reduce unwanted attrition</a></li>
                         </ul>
                     </div>
                 </div> <!--  ul-widget__head -->
@@ -52,6 +52,7 @@
                                         <div class="card-body d-flex align-items-center">
                                             <div class="col-md-6 text-left">
                                             AI-powered employee feedback surveys give you engagement insights automatically right after the survey is taken. The managers get to act quickly on real-time data to address problems. As the data flows into the system, it starts showing you all the key drivers that you need to move in order to see the biggest impact on employee engagement.
+
 
                                             </div>
                                             <div class="col-md-6">
@@ -70,7 +71,7 @@
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulsi recurrant? Et harum quidem rerum facilis est et expedita distinctio. Isto modo ne improbos quidem, si essent boni viri. Quid sequatur, quid repugnet, vident. Quae diligentissime contra Aristonem dicuntur a Chryippo. At enim hic etiam dolore. Optime, inquam. Duo Reges: constructio interrete.
+                                        Our algorithm offer you the industry specific bench mark from over 50,000 companies across Asia. You can also get a deeper level of insight through our tailored report by comparing your company with the award winning corperates “Best company to work for in Asia”.
 
                                         </div>
                                         <div class="col-md-6">
@@ -89,7 +90,8 @@
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit; Sed non sunt in eo genere tantae commoditates corporis tamque productae temporibus tamque multae. Quia nec honesto quic quam honestius nec turpi turpius. Ita cum ea volunt retinere, quae superiori sententiae conveniunt, in Aristonem incidunt; Sint modo partes vitae beatae. Habes, inquam, Cato, formam eorum, de quibus loquor, philosophorum. Quid autem habent admirationis, cum prope accesseris? Praeteritis, inquit, gaudeo.
+                                        Artificial intelligence and machine learning help you find hidden deep insights from open-ended employee feedback. The intelligent analytics make it possible to know about the topics your employees are talking about even without going through the feedback. This helps you immediately understand which part of your employee engagement strategy you need to focus the most.
+
 
                                         </div>
                                         <div class="col-md-6">
@@ -108,7 +110,7 @@
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        Etenim semper illud extra est, quod arte comprehenditur. Nescio quo modo praetervolavit oratio. Quis Pullum Numitorium Fregellanum, proditorem, quamquam rei publicae nostrae profuit, non odit? Istam voluptatem perpetuam quis potest praestare sapienti? Tum Torquatus: Prorsus, inquit, assentior; Quid, cum fictas fabulas, e quibus utilitas nulla elici potest, cum voluptate legimus? Theophrastus mediocriterne delectat, cum tractat locos ab Aristotele ante tractatos.
+                                        The AI-powered engagement surveys make employee retention easier by informing you about the unhappy employees in real-time. You get to know about their challenges and problem areas instantly. You just need to make efforts in the right direction and pull the right levers to increase the engagement of unhappy employees. This help
 
                                         </div>
                                         <div class="col-md-6">
