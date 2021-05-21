@@ -56,10 +56,12 @@
                                 <div class="wow animate__fadeInDown" data-wow-duration="2s">
         
                                 <h1 class="text-primary text-44 mb-4 f-30">Employee Precision</h1>
-                                <div class="text-18 mb-5 f-14">Harness deep insights what matters to people at work.
+                                <div class="text-18 mb-5 f-14" style="
+    max-width: 500px;">Harness deep insights what matters to people at work.
                                     Create a faster and sustainable company performance.</div>
-                                    <button class="btn bg-color-397DD6 pl-5 pr-5 pt-3 pb-3 text-white text-17 mr-3 f-14 mobile-btn" type="button">Learn How</button>
-                                    <button class="btn btn-outline-primary pl-5 pr-5 pt-3 pb-3 text-primary text-17 border-primary f-14 thick-border mobile-btn" type="button">Join Survey</button>
+                                    <button class="btn bg-color-397DD6 pl-5 pr-5 pt-3 pb-3 text-white text-17 mr-3 f-14 mobile-btn" style="background-color: #285ea7 !important; 
+    font-weight: 700;" type="button">Join Survey</button>
+                                    <!-- <button class="btn btn-outline-primary pl-5 pr-5 pt-3 pb-3 text-primary text-17 border-primary f-14 thick-border mobile-btn" type="button">Learn How</button> -->
         
                                 </div>
                             </div>
