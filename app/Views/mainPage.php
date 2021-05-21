@@ -27,7 +27,7 @@
         </div>
 
 
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-5" id="features">
             <div class="col-md-10 text-center">
                 <div class="wow animate__zoomIn" data-wow-duration="2s">
                     <h3 class="mb-4 text-center text-28 f-26 mt-5">Make Real Impact</h3>
@@ -134,7 +134,7 @@
     </div>
 
         <!--  PRICE CARD STARTS -->
-        <div class="row text-center justify-content-center mt-5">
+        <div class="row text-center justify-content-center mt-5" id="pricing">
             <div class="col-md-12 col-sm-8 text-center mt-5">
                 <div class="wow animate__zoomIn" data-wow-duration="2s">
                     <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>

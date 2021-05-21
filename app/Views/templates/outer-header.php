@@ -35,15 +35,15 @@
                                     </button>
                                     <div class="collapse navbar-collapse justify-content-center text-right" id="navbarNavAltMarkup">
                                         <div class="navbar-nav mr-5 mb-mrgn-right-3">
-                                            <a class="nav-item nav-link text-primary text-16" href="main">Why T.E.A.M?</a>
-                                            <a class="nav-item nav-link text-primary text-16" href="#">Features</a>
-                                            <a class="nav-item nav-link text-primary text-16" href="#">Pricing</a>
-                                            <a class="nav-item nav-link text-primary text-16" href="#">Learning Hub</a>
-                                            <a class="nav-item nav-link text-primary text-16" href="contactus">Contact Us</a>
+                                            <a id="myBtny" style="cursor: pointer;" class="nav-item nav-link text-primary text-16">Why T.E.A.M?</a>
+                                            <a class="nav-item nav-link text-primary text-16 smooth" href="#features">Features</a>
+                                            <a class="nav-item nav-link text-primary text-16 smooth" href="#pricing">Pricing</a>
+                                           <!--  <a class="nav-item nav-link text-primary text-16 smooth" href="#">Learning Hub</a> -->
+                                            <a class="nav-item nav-link text-primary text-16 smooth" href="contactus">Contact Us</a>
                                         </div>
                                 
                                     </div>
-                                    <a  href="https://dev.cenesgroup.com/saas-dev/index.php/saas/login" class="mr-4 ml-4 btn btn-outline-primary pl-5 pr-5 text-primary text-18 border-primary f-14 thick-border" type="button">Login</a>
+                                    <a  href="https://dev.cenesgroup.com/saas-dev/index.php/saas/login" class="mr-4 ml-4 btn btn-outline-primary pl-5 pr-5 text-primary text-18 border-primary f-14 thick-border" style="background-color: #bcdaff;" type="button">Login</a>
                             </nav>
     
                             <!--div class="text-right mt-5 mb-mrgn-top-0">
@@ -78,4 +78,5 @@
         </div>
     
 
-   
+
+

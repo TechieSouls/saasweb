@@ -52,9 +52,9 @@
                 </div>
                 <div class="col-md-9 col-sm-11 hvr-efft text-15 text-color-3D5154 justify-content-end ul-widget-app__small-title wow animate__slideInLeft">
                     <div class="text-11">Quick Links</div>
-                    <div><a href="main">Why TEAM</a></div>
-                    <div><a href="#">Features</a></div>
-                    <div><a href="#">Pricing</a></div>
+                    <div><a id="myBtny2" style="cursor: pointer;" >Why TEAM</a></div>
+                    <div><a class="smooth" href="#features">Features</a></div>
+                    <div><a class="smooth" href="#pricing">Pricing</a></div>
                     <div><a href="#">Request Demo</a></div>
                     <div><a id="myBtn" href="#">FQA</a></div>
                     <div><a href="contactus">Contact Us</a></div>
@@ -88,17 +88,23 @@
         <div class="col-md-10 border-top"></div>
     </div>
 
-<!-- The Modal -->
+<!-- The FQA Modal -->
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
-        <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s">
+    <span class="close" style=" max-height: 32px!important;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0.6;
+    text-align: right;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
+        <div class="col-lg-10 col-md-10 col-sm-12 wow">
+        <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
             <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
         </div>
 
-        <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s">
+        <div class="col-md-6 col-sm-10 wow">
+        <!-- <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s"> -->
                 <div class="text-left">
                     <span class="heading"> 1. What are the survey link?</span>
                     <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
@@ -124,7 +130,8 @@
                     <p class="mb-4">......</p>
                 </div>
         </div>
-        <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s">
+        <div class="col-md-4 wow">
+        <!-- <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s"> -->
             <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
         </div>
     </div>
@@ -132,11 +139,63 @@
 
 </div>
 
+
+<!-- The WHY TEAM Modal -->
+<div id="myModaly" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="closey" style=" max-height: 32px!important;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0.6;
+    text-align: right;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
+        <div class="col-lg-10 col-md-10 col-sm-12 wow">
+        <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
+            <h3 class="mb-4 text-center text-28 f-26">Why T.E.A.M</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-10 wow" style="margin-top: 20px;font-size: large;">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-10 wow animate__slideInLeft" style="margin-top: 20px;font-size: large;" data-wow-duration="2s"> -->
+                <div class="text-left">
+                    <!-- <span class="heading"> 1. What are the survey link?</span> -->
+                    <p class="mb-4">T.E.A.M establishes the levels of engagement within your organisation and identifies strategies and initiatives to enhance employee wellbeing, motivation and productivity.
+</p>
+
+                </div>
+        </div>
+        <div class="col-md-4 wow offset-1">
+        <!-- <div class="col-md-4 wow offset-1 animate__slideInRight" data-wow-duration="2s"> -->
+            <img src="<?php echo base_url(); ?>/public/assets/images/winners.png" />
+        </div>
+<div class="col-lg-10 col-md-10 col-sm-12 wow">
+<!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
+            
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10 wow">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s"> -->
+                <div class="text-left">
+                    <!-- <span class="heading"> 1. What are the survey link?</span> -->
+                    <img src="<?php echo base_url(); ?>/public/assets/images/analysis.png" />
+
+                </div>
+        </div>
+        <div class="col-md-4 offset-1 wow" style="margin-top: 39px;size: large; text-align: left;">
+        <!-- <div class="col-md-4 offset-1 wow animate__slideInRight" data-wow-duration="2s" style="margin-top: 39px;size: large; text-align: left;"> -->
+            <p class="mb-4">The T.E.A.M questionnaires are a combination of 35 analytical questions and free-text response options that can rapidly pinpoint the issues that contribute to underperformance and keep performers focused.
+</p>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
+// Get FQA the button that opens the modal
 var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
@@ -158,6 +217,73 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+</script>
+
+<!-- why team modal -->
+   <script>
+// Get the modal
+var modaly = document.getElementById("myModaly");
+
+// Get FQA the button that opens the modal
+var btny = document.getElementById("myBtny");
+// Get FQA the button that opens the modal
+var btny2 = document.getElementById("myBtny2");
+
+// Get the <span> element that closes the modal
+var spany = document.getElementsByClassName("closey")[0];
+
+// When the user clicks the button, open the modal 
+btny.onclick = function() {
+  modaly.style.display = "block";
+}
+// When the user clicks the button, open the modal 
+btny2.onclick = function() {
+  modaly.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spany.onclick = function() {
+  modaly.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modaly) {
+    modaly.style.display = "none";
+  }
+}
+
+
+</script>
+
+<!-- Smooth scrolling code -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".smooth").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 	</body>
 
