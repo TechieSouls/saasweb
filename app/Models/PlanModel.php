@@ -32,13 +32,6 @@ class PlanModel extends Model {
 
     public function findAllActivePlansJoinFeatures() {
 
-/*        $plans = $this->db->table('plans');
-                $plans->select('*');
-                $plans->join('features', 'plans.id = features.plan_id', 'left');
-                $plans->where('plans.active', 1);
-                $plans->where('features.active', 1)->get()->getResult();
-*/
-               // $db->
         return $this->query('SELECT * FROM plans LEFT JOIN features ON plans.id = features.plan_id WHERE plans.active = 1 AND features.active = 1')->getResultArray();
 
     }

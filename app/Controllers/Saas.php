@@ -13,22 +13,26 @@ error_reporting(E_ALL);
 
 use \DateTime;
 use \DateTimeZone;
+use App\Models\PlanModel;
 
 class Saas extends BaseController {
 	
 	private $homeModel;
 	public $session;
+	private $planModel;
 
 	function __construct() {
+
 		$this->homeModel =  new \App\Models\HomeModel();
 		//this->session = \Config\Services::session();
 		$this->session = session();
+		$this->planModel = new PlanModel();
 
 	}
 
 	function main() {
 
-
+/*
 		$plans = $this->planModel->findAllActivePlansJoinFeatures();
 
 		//Lets create two maps for removing duplicacy of features and plans
@@ -61,9 +65,10 @@ class Saas extends BaseController {
 			array_push($plansList, $planDataRecord);
 		}
 
+*/
 		$data['title'] = 'Main Page';
-		$data['plans'] = $plansList;
-		
+		// $data['plans'] = $plansList;
+
 		$return = view('templates/outer-header',$data);
 		$return .= view('mainPage');
 		$return .= view('templates/outer-footer');
@@ -77,7 +82,7 @@ class Saas extends BaseController {
 	function contactus() {
 
 		$data['title'] = 'Contact Us';
-		$return = view('templates/outer-header',$data);
+		$return = view('templates/no-menu-header',$data);
 		$return .= view('contactus');
 		$return .= view('templates/outer-footer');
 		if ($return)

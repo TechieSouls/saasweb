@@ -31,14 +31,14 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '@Mandyneha123@',
+		'hostname' => 'https://dev.cenesgroup.com/',
+		'username' => 'main_team',
+		'password' => '@Mandyneha456@',
 		'database' => 'ukfitvyx_jrm',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
-		'DBDebug'  => (ENVIRONMENT !== 'production'),
+		'DBDebug'  => (ENVIRONMENT !== 'developer'),
 		'cacheOn'  => false,
 		'cacheDir' => '',
 		'charset'  => 'utf8',

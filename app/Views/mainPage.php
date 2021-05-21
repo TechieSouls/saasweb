@@ -138,30 +138,21 @@
             <div class="col-md-12 col-sm-8 text-center mt-5">
                 <div class="wow animate__zoomIn" data-wow-duration="2s">
                     <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
-                    <p class="text-18 f-14">that Meet Your Needs</p>
+                    <p class="text-18 f-14">That Meet Your Needs</p>
                 </div>
                 <section class="widget-app w-100" id="bg-shape">
                             <div class="row text-center justify-content-center">
                                 <div class="col-lg-3 col-md-4 mb-4">
                                     <div class="card rounded-0 price-card wow animate__fadeInBottomLeft" data-wow-duration="2s"> 
                                         <div class="card-body">
-                                            <div class="text-22 f-weight-400">FREE</div> 
+                                        <!-- 1 -->
+                                            <div class="text-22 f-weight-400">FREE DEMO</div> 
                                             <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>0</span>
-                                            <p class="text-14 f-12">1-month accessibility</p>
+                                            <p class="text-14 f-12">Accessible permanently</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
-                                                — Dashboard<br/>
                                                 — Send Surveys<br/>
-                                                — Free 30 survey participants<br/>
-                                                — 35 questions – 1 time<br/>
-                                                — 24/7 Email Support<br/>
-                                                — Real Time result<br/>
-                                                — Scoring system<br/>
-                                                — Regular product updates<br/>
-                                                — View Online Analysis<br/>
-                                                — Export Survey Data<br/>
-                                                — Survey Reminder<br/>
-                                                — Answer validation <br/>
-                                                — Email notification<br/>   
+                                                — 5 sample questions<br/>
+                                                — Dashboard<br/>
                                             </p>
                                             <div class="">
                                                 <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Create Account</a>
@@ -172,21 +163,21 @@
                                 <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card wow animate__zoomIn" data-wow-duration="2s"> 
                                         <div class="card-body">
-                                            <div class="text-22 f-weight-500">PREMIUM</div> 
+                                        <!-- 2 -->
+                                            <div class="text-22 f-weight-500">BASIC</div> 
                                             <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>420</span>
-                                            <p class="text-14 f-12">12-month accessibility</p>
+                                            <p class="text-14 f-12">12-Month accessibility</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
-                                                — Free 40 survey participants<br/>
-                                                — 140 Questions, 35 renewable<br/> questions per quarter<br/>
-                                                — Add 3 "My Favorite Questions"<br/>
-                                                — Video and image questions<br/>
-                                                — Customized thank you screen<br/>
-                                                — AI Feedback Analysis<br/>
-                                                — Respondent notification<br/>
-                                                — Randomize answer choice<br/>
-                                                — Employee Happiness Scoring<br/>
-                                                — Filter and compare result<br/>
-                                                — All features in FREE plan<br/>
+                                                — Free 25 survey participants<br/>
+                                                — All features in Free Trial plan<br/> 
+                                                — Real-Time result<br/>
+                                                — View Online Analysis<br/>
+                                                — Scoring System<br/>
+                                                — Export Survey Data<br/>
+                                                — Answer validation<br/>
+                                                — Survey Reminder<br/>
+                                                — Email notification<br/>
+                                                — 24/7 Email Support<br/>
                                                 <br/>
                                             </p>
                                             <div class="">
@@ -198,22 +189,23 @@
                                 <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
                                         <div class="card-body">
-                                            <div class="text-22 f-weight-500">PRESTIGE</div> 
+                                        <!-- 3 -->
+                                            <div class="text-22 f-weight-500">ADVANCE</div> 
                                             <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>780</span>
-                                            <p class="text-14 f-12">12-month accessibility</p>
+                                            <p class="text-14 f-12">12-Month accessibility</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
-                                                — Free 50 survey participants<br/>
-                                                — Dedicated Account Manager<br/>
-                                                — Online training videos<br/>
-                                                — Free nomination to "Best<br/> Company To Work For In Asia"<br/>
-                                                — All features in Premium plan<br/> 
-                                                <br/>
-                                                <br/>
-                                                <br/>
-                                                <br/>
-                                                <br/>
-                                                <br/>
-                                                <br/>
+                                                — Free 100 survey participants<br/>
+                                                — All features in Basic Plan plan<br/> 
+                                                — Video and image questions<br/>
+                                                — AI Feedback Analysis<br/>
+                                                — Employee Happiness Scoring<br/>
+                                                — Filter and compare result<br/>
+                                                — Randomised answer choice<br/>
+                                                — Add 3 "My Favourite Questions"<br/>
+                                                — Respondent notification<br/>
+                                                — Customised thank you screen<br/>
+                                                — Prioritise support<br/>
+                                                — Online training video<br/>
                                             </p>
                                             <div class="">
                                                 <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Buy</a>
@@ -341,41 +333,7 @@
     </div>
 
 
-    <div class="row text-center mt-5 justify-content-center p-3">
-        <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s">
-            <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
-        </div>
-
-        <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s">
-                <div class="text-left">
-                    <span class="heading"> 1. What are the survey link?</span>
-                    <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
-
-                    
-                    <span class="heading">2. What is the deadline of completing the survey?</span>
-                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
-                    
-
-                    <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
-                    <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
-                    
-
-                    <span class="heading">4. How do I remind my respondents to complete the survey?</span>
-                    <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
-                
-
-                    <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
-                    <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
-                
-
-                    <span class="heading">6. What language are the Surveys in?</span>
-                    <p class="mb-4">......</p>
-                </div>
-        </div>
-        <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s">
-            <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
-        </div>
-    </div>
+    
 
 
     <!--div class="row justify-content-center">

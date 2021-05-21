@@ -51,11 +51,12 @@
                     <p>Asia’s most professional HR analytic service to gain deep insights into  what drives engagement in your organization . </p>
                 </div>
                 <div class="col-md-9 col-sm-11 hvr-efft text-15 text-color-3D5154 justify-content-end ul-widget-app__small-title wow animate__slideInLeft">
-                    <div class="text-11"><a href="#">Quick Links</a></div>
+                    <div class="text-11">Quick Links</div>
                     <div><a href="main">Why TEAM</a></div>
-                    <div><a href="#">Feature</a></div>
+                    <div><a href="#">Features</a></div>
                     <div><a href="#">Pricing</a></div>
                     <div><a href="#">Request Demo</a></div>
+                    <div><a id="myBtn" href="#">FQA</a></div>
                     <div><a href="contactus">Contact Us</a></div>
                 </div>
 
@@ -87,5 +88,77 @@
         <div class="col-md-10 border-top"></div>
     </div>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
+        <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s">
+            <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
+        </div>
+
+        <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s">
+                <div class="text-left">
+                    <span class="heading"> 1. What are the survey link?</span>
+                    <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
+
+                    
+                    <span class="heading">2. What is the deadline of completing the survey?</span>
+                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
+                    
+
+                    <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
+                    <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
+                    
+
+                    <span class="heading">4. How do I remind my respondents to complete the survey?</span>
+                    <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
+                
+
+                    <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
+                    <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
+                
+
+                    <span class="heading">6. What language are the Surveys in?</span>
+                    <p class="mb-4">......</p>
+                </div>
+        </div>
+        <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s">
+            <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
+        </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 	</body>
+
 </html>
