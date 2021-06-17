@@ -148,8 +148,9 @@
                                         <!-- 1 -->
                                             <div class="text-22 f-weight-400">FREE DEMO</div> 
                                             <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>0</span>
-                                            <p class="text-14 f-12">Accessible permanently</p>
+                                            <p class="text-14 f-12">Free 5 survey participants<!-- Accessible permanently --></p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
+                                            
                                                 — Send Surveys<br/>
                                                 — 5 sample questions<br/>
                                                 — Dashboard<br/>
@@ -165,10 +166,10 @@
                                         <div class="card-body">
                                         <!-- 2 -->
                                             <div class="text-22 f-weight-500">BASIC</div> 
-                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>420</span>
-                                            <p class="text-14 f-12">12-Month accessibility</p>
+                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>99</span>
+                                            <p class="text-14 f-12"><!-- 12-Month accessibility -->Free 50 survey participants</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
-                                                — Free 25 survey participants<br/>
+                                                
                                                 — All features in Free Trial plan<br/> 
                                                 — Real-Time result<br/>
                                                 — View Online Analysis<br/>
@@ -191,16 +192,15 @@
                                         <div class="card-body">
                                         <!-- 3 -->
                                             <div class="text-22 f-weight-500">ADVANCE</div> 
-                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>780</span>
-                                            <p class="text-14 f-12">12-Month accessibility</p>
+                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>199</span>
+                                            <p class="text-14 f-12"><!-- 12-Month accessibility --> Free 150 survey participants</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
-                                                — Free 100 survey participants<br/>
+                                                
                                                 — All features in Basic Plan plan<br/> 
                                                 — Video and image questions<br/>
                                                 — AI Feedback Analysis<br/>
                                                 — Employee Happiness Scoring<br/>
                                                 — Filter and compare result<br/>
-                                                — Randomised answer choice<br/>
                                                 — Add 3 "My Favourite Questions"<br/>
                                                 — Respondent notification<br/>
                                                 — Customised thank you screen<br/>
@@ -208,7 +208,13 @@
                                                 — Online training video<br/>
                                             </p>
                                             <div class="">
-                                                <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Buy</a>
+                                                <a type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200" style="
+    cursor: unset;
+    background-color: #fff !important;
+    border-bottom-width: 2px;
+    border-color: #397dd6;
+    color: #111 !important;
+    opacity: 0.5;">Coming Soon</a>
                                             </div>
                                         </div>
                                     </div>
@@ -220,11 +226,230 @@
 
             </div>
             <div class="col-md-10 col-sm-8 mt-5">
-                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s">Beyond singular validated<br/> through external metrics.</h3>
-                <p class="text-18 f-14 wow animate__zoomIn" data-wow-duration="2s">Real testimonials from improved companies</p>
-                
+                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s" style="margin-bottom:38px;">Over 1000 Clients From<br/>All Over Asia</h3>
+                <!-- <p class="text-18 f-14 wow animate__zoomIn" data-wow-duration="2s">Real testimonials from improved companies</p> -->
+
+                <ul class="row clients">
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/Logo1.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; ">
+                        ASSOCIATION OF INTERNATIONAL CERTIFIED PROFESSIONAL ACCOUNTANTS
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo2.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s;">
+                        BANK KERJASAMA RAKYAT MALAYSIA BERHAD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo3.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; ">
+                        ARVATO SYSTEMS MALAYSIA SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo4.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s;  padding-top: 10px">
+                        COCA COLA BOTTLERS (MALAYSIA) SDN BHD
+
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo5.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        DHL ASIA PACIFIC SHARED SERVICES
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo6.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        INTEL MALAYSIA SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo7.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        LAZADA MALAYSIA SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo8.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        RHB BANK BERHAD
+                        </p>
+                    </li>       
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo9.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        SAMSUNG MALAYSIA ELECTRONICS (SME) SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo10.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        SARAWAK ENERGY BERHAD
+
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo11.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        AIRASIA GROUP
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo12.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        AIRASIA GROUP
+
+                        </p>
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo13.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        MCDONALD'S MALAYSIA
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo14.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        ABBVIE SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo15.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        JAKEL TRADING SDN BHD
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo16.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        PUMA SPORTS GOODS SDN BHD
+                        </p>
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo17.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        THAI ODYSSEY SDN BHD
+
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo18.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        UNILEVER MALAYSIA
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo19.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        UMW CORPORATION SDN BHD
+
+                        </p>
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/logo20.jpg" class="mb-3" style="
+    max-width: 133px;">
+                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
+                        AUO SUNPOWER SDN BHD
+                        </p>
+                    </li>       
+
+
+
+
+
+
+                    
+
+                </ul>
+
                 <div class="justify-content-center text-center mt-5 pb-2" id="flat">
-                    <ul>
+                    <!-- <ul>
                         <li class="card rounded-0 pb-3">
                             <div class="card-body">
                                 <img src="<?php echo base_url(); ?>/public/assets/images/slide-m.png" class="mb-3" />
@@ -252,7 +477,8 @@
                                 </p>
                             </div>
                         </li>
-                    </ul>
+                    </ul> -->
+
                 </div>
     
             </div> <!-- col-md-10 -->

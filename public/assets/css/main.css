@@ -6,10 +6,15 @@
     background-image: url(../../assets/images/main-page-header.png);
     height: 580px !important;
     position: absolute;
-    width: 102%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.row{
+    margin-right: 0px !important;
+    padding: 0px;
 }
 .user-profile .header-cover::after{
     background: transparent;
@@ -27,9 +32,16 @@
     margin-right: 4rem;
 }
 
+.join-survey-btn:hover {
+    color: white !important;
+}
+.login-survey-btn:hover {
+    color: white !important;
+}
+
 .img-section img {
-    width:180px;
-    /*height: 150px;*/
+    /*width:180px;*/
+    height: 150px;
 }
 
 .footer-getstarted img {
@@ -80,6 +92,7 @@ font-weight: 400;
 .f-weight-500{
     font-weight: 500;
 }
+
 .font-fam-roboto{
     font-family: 'Roboto Mono';
 }
@@ -161,7 +174,7 @@ font-weight: 400;
     max-height: 480px;
 }
 ul.flipster__container {
-    min-height: 450px !important;
+    min-height: 470px !important;
 }
 .thick-border{
     border: 2px solid;
@@ -189,9 +202,36 @@ color: #397DD6;
     display: inline;
 }
 
+.clientC{
+    display: flex;
+    align-items: center;
+    height: auto
+}
+
+.clientC < ul{
+    padding: 0px !important;
+}
+
+
+.clientC > img{
+    max-height: 133px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.clientC > p{
+    font-size: 10px !important;
+    height: auto
+}
+
+
 
 @media (max-width: 767px){
    
+    .top-nav-bar-item {
+        text-align: right !important;
+        width: 100% !important;
+    }
     #shape-footer {
         background-size: contain;
     }
@@ -199,118 +239,69 @@ color: #397DD6;
         margin-top: -20px;
         margin-right: 10px;
     }
-.navbar-toggler .navbar-toggler-icon div{
-    background: #fff;
-    width: 25px;
-    height: 2px;
-    vertical-align: middle;
-    content: "";
-    margin-top: 4px;
-}
-.mb-mrgn-top-0{
-margin-top: 0px !important;
-}
-.mb-mrgn-top-3 {
-    margin-top : 0.75rem !important
-}
-.mb-mrgn-right-3{
-    margin-right: 1rem !important;
+    .navbar-toggler .navbar-toggler-icon div{
+        background: #214778;
+        width: 25px;
+        height: 2px;
+        vertical-align: middle;
+        content: "";
+        margin-top: 4px;
     }
-.img-section img {
-    width:150px;
-    /*height: 130px;*/
-}
-#ui-widget-body .card-body{
-    display: unset !important;
-}
-#flat .card{
-    width: 300px;
-}
-.text-left-m{
-    text-align: left !important;
-}
-.text-center-m{
-    text-align: center !important;
-}
-.w-100-m{
-    width: 100% !important;
-}
-.mobile-btn{
-    padding: 5px 20px !important;
-}
-.logo {width:100px; margin-bottom: 20px; }
-.hre{
-  
-    height: 118px;
-    min-width: 180px;
 
-}.hr-department-icons{
-    width: 50px;
-    height: 50px;
-    margin-top: 34px;
-}
+    .login-btn-block {
+        width: 100%;
+    }
+    .mb-mrgn-top-0{
+    margin-top: 0px !important;
+    }
+    .mb-mrgn-top-3 {
+        margin-top : 0.75rem !important
+    }
+    .mb-mrgn-right-3{
+        margin-right: 1rem !important;
+        }
+    .img-section img {
+        /* width:150px; */
+        height: 130px;
+    }
+    #ui-widget-body .card-body{
+        display: unset !important;
+    }
+    #flat .card{
+        width: 300px;
+    }
+    .text-left-m {
+        text-align: left !important;
+    }
+    .text-center-m {
+        text-align: center !important;
+    }
 
-}@media (min-width: 992px){
+    .justify-content-left-m {
+        justify-content: left !important;
+    }
+    .w-100-m{
+        width: 100% !important;
+    }
+    .mobile-btn{
+        padding: 5px 20px !important;
+    }
+    .logo {width:100px; margin-bottom: 20px; }
+    .hre{
+    
+        height: 118px;
+        min-width: 180px;
+
+    }.hr-department-icons{
+        width: 50px;
+        height: 50px;
+        margin-top: 34px;
+    }
+
+}
+/*@media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 3rem;
-}
-}
-
-/*The FQA Modal*/
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  padding-bottom: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-/* WHY TEAM Modal*/
-.closey {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closey:hover,
-.closey:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}*/
 }

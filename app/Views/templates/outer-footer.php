@@ -56,7 +56,7 @@
                     <div><a class="smooth" href="#features">Features</a></div>
                     <div><a class="smooth" href="#pricing">Pricing</a></div>
                     <div><a href="#">Request Demo</a></div>
-                    <div><a id="myBtn" href="#">FQA</a></div>
+                    <div><a id="myBtn" href="#">FAQ</a></div>
                     <div><a href="contactus">Contact Us</a></div>
                 </div>
 
@@ -89,67 +89,95 @@
     </div>
 
 <!-- The FQA Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" style="background-color: #fffE; padding-top: 50px; padding-bottom: 50px; overflow-y: scroll; overflow-x: hidden;">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close" style=" max-height: 32px!important;
+  <div class="modal-content" style="
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    align-items: baseline;
+    border: none;
+    padding: 12px;
+    box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);
+    -webkit-box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);
+    -moz-box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);
+">
+    <span class="close" style="
+    max-height: 32px!important;
+    width: 100%;
     padding: 0px;
     margin: 0px;
     line-height: 0.6;
-    text-align: right;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
-        <div class="col-lg-10 col-md-10 col-sm-12 wow">
+    text-align: right;
+    float: right;
+    font-size: 30px;
+    ">×</span><div class="row text-center mt-5 justify-content-center p-3" style="
+">
+        <div class="col-lg-10 col-md-10 col-sm-12 wow animated animated" style="visibility: visible;">
         <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
             <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
         </div>
 
-        <div class="col-md-6 col-sm-10 wow">
+        <div class="col-md-6 col-sm-10 wow animated animated" style="visibility: visible;">
         <!-- <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s"> -->
                 <div class="text-left">
-                    <span class="heading"> 1. What are the survey link?</span>
-                    <p class="mb-4"><a href="www.hrasiamedia.com/awards/team." target="_blank">www.hrasiamedia.com/awards/team.</a></p>
+                    <span class="heading"> 1. What is the survey link?</span>
+                    <p class="mb-4">You will receive a dedicated survey link from an email sent by your company.</p>
 
                     
-                    <span class="heading">2. What is the deadline of completing the survey?</span>
-                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organiser. Once the survey are completed, you will be notified by the Organizer. </p>
+                    <span class="heading">2. What is the deadline for completing the survey?</span>
+                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organizer. Survey links are expired quarterly. </p>
                     
 
                     <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
-                    <p class="mb-4">You can log-on to your account to see the latest updates about the  progress. Due to the confidentiality of the process, you will only know the number of respondents submitted or haven’t submitted the survey by the survey code number. </p>
+                    <p class="mb-4">You can log in to your account to see the latest updates about the progress. Due to the confidentiality of the process, you will only know the number of respondents who submitted or haven’t submitted the survey by the survey code number. </p>
                     
 
                     <span class="heading">4. How do I remind my respondents to complete the survey?</span>
-                    <p class="mb-4"> Due to annonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the button to the survey code who has not submitted the survey.</p>
+                    <p class="mb-4"> Due to the anonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the Send Reminder button to the survey code who has not submitted the survey.</p>
                 
 
-                    <span class="heading">5. Is there any paper survey instead of online survey for my company to complete? </span>
-                    <p class="mb-4"> The survey are only available online. No paper surveys will be accepted. </p>
+                    <span class="heading">5. Is there any paper survey instead of the online survey for my company to complete? </span>
+                    <p class="mb-4"> The survey is only available online. No paper surveys will be accepted. </p>
                 
 
-                    <span class="heading">6. What language are the Surveys in?</span>
-                    <p class="mb-4">......</p>
+                    <span class="heading">6. What languages are the Surveys in?</span>
+                    <p class="mb-4">The languages (English, Chinese, Vietnamese, Korean, Bahasa Malaysia, Thailand) are supported</p>
                 </div>
         </div>
-        <div class="col-md-4 wow">
+        <div class="col-md-4 wow animated animated" style="visibility: visible; display: flex; align-items: center;">
         <!-- <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s"> -->
-            <img src="<?php echo base_url(); ?>/public/assets/images/faq-block.png" />
+            <img src="http://teamhr.org/public/assets/images/faq-block.png">
         </div>
     </div>
   </div>
 
 </div>
 
-
 <!-- The WHY TEAM Modal -->
-<div id="myModaly" class="modal">
+<div id="myModaly" class="modal"  style="background-color: #fffE; padding-top: 50px; padding-bottom: 50px; overflow-y: scroll; overflow-x: hidden;">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <span class="closey" style=" max-height: 32px!important;
+  <div class="modal-content" style="
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    align-items: baseline;
+    border: none;
+    padding: 12px;
+    box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);
+    -webkit-box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);
+    -moz-box-shadow: -1px 10px 43px -4px rgba(0,0,0,0.19);">
+    <span class="closey" style=" 
+    max-height: 32px!important;
+    width: 100%;
     padding: 0px;
     margin: 0px;
     line-height: 0.6;
-    text-align: right;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
+    text-align: right;
+    float: right;
+    font-size: 30px;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
         <div class="col-lg-10 col-md-10 col-sm-12 wow">
         <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
             <h3 class="mb-4 text-center text-28 f-26">Why T.E.A.M</h3>
@@ -212,11 +240,11 @@ span.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.addEventListener("click", function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+});
 
 
 </script>
@@ -226,9 +254,9 @@ window.onclick = function(event) {
 // Get the modal
 var modaly = document.getElementById("myModaly");
 
-// Get FQA the button that opens the modal
+// Get why team the button that opens the modal
 var btny = document.getElementById("myBtny");
-// Get FQA the button that opens the modal
+// Get why team the button that opens the modal
 var btny2 = document.getElementById("myBtny2");
 
 // Get the <span> element that closes the modal
