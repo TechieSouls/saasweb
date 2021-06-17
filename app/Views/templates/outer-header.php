@@ -35,9 +35,9 @@
                                     </button>
                                     <div class="collapse navbar-collapse justify-content-center text-right" id="navbarNavAltMarkup">
                                         <div class="navbar-nav mr-5 mb-mrgn-right-3 w-75 text-center top-nav-bar-item">
-                                            <a id="myBtny" class="nav-item nav-link text-primary text-16 col-md-3">Why T.E.A.M?</a>
-                                            <a id="featuresMenuItem" class="nav-item nav-link text-primary text-16 col-md-3" href="javascript:void(0);">Features</a>
-                                            <a id="pricingPlansMenuItem" class="nav-item nav-link text-primary text-16 col-md-3"  href="javascript:void(0);">Pricing</a>
+                                            <a id="myBtny" class="nav-item nav-link text-primary text-16 col-md-3" style="cursor: pointer;">Why T.E.A.M?</a>
+                                            <a id="featuresMenuItem" class="nav-item nav-link text-primary text-16 col-md-3 smooth" href="#features">Features</a>
+                                            <a id="pricingPlansMenuItem" class="nav-item nav-link text-primary text-16 col-md-3 smooth"  href="#pricing">Pricing</a>
                                             <!-- <a class="nav-item nav-link text-primary text-16" href="#">Learning Hub</a> -->
                                             <a class="nav-item nav-link text-primary text-16 col-md-3" href="contactus">Contact Us</a>
                                         </div>
