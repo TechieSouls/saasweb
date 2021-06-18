@@ -153,7 +153,7 @@
                         <div class="ul-widget4__img ml-3"><img id="userDropdown" src="<?php echo base_url(); ?>/public/assets/images/vector-email.png" alt="alt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" /></div>
                         <div class="ul-widget2__info ul-widget4__users-info text-left">
                             <h5 class="heading">
-                        Email us at:</h5><a class="ul-widget2__title text-14" href="mailto:support@teamhr.org">support@teamhr.org</a>
+                        Email us at:</h5><a class="ul-widget2__title text-14" href="mailto:creed@capitalmagazine.asia">creed@capitalmagazine.asia</a>
                         </div>
                 </div>
 
