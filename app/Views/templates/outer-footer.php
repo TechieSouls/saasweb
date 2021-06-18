@@ -112,8 +112,8 @@
     text-align: right;
     float: right;
     font-size: 30px;
-    ">×</span><div class="row text-center mt-5 justify-content-center p-3" style="
-">
+    ">×</span>
+      <div class="row text-center mt-5 justify-content-center p-3" style="margin-bottom:50px;">
         <div class="col-lg-10 col-md-10 col-sm-12 wow animated animated" style="visibility: visible;">
         <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
             <h3 class="mb-4 text-center text-28 f-26">Frequently Asked Questions</h3>
@@ -121,35 +121,54 @@
 
         <div class="col-md-6 col-sm-10 wow animated animated" style="visibility: visible;">
         <!-- <div class="col-md-6 col-sm-10 wow animate__slideInLeft" data-wow-duration="2s"> -->
-                <div class="text-left">
-                    <span class="heading"> 1. What is the survey link?</span>
-                    <p class="mb-4">You will receive a dedicated survey link from an email sent by your company.</p>
+            <div class="text-left">
+                <span class="heading"> 1. What is the survey link?</span>
+                <p class="mb-4">You will receive a dedicated survey link from an email sent by your company.</p>
 
-                    
-                    <span class="heading">2. What is the deadline for completing the survey?</span>
-                    <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organizer. Survey links are expired quarterly. </p>
-                    
 
-                    <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
-                    <p class="mb-4">You can log in to your account to see the latest updates about the progress. Due to the confidentiality of the process, you will only know the number of respondents who submitted or haven’t submitted the survey by the survey code number. </p>
-                    
+                <span class="heading">2. What is the deadline for completing the survey?</span>
+                <p class="mb-4">You are suggested to complete the survey within two weeks once you have received the survey login codes from the organizer. Survey links are expired quarterly. </p>
 
-                    <span class="heading">4. How do I remind my respondents to complete the survey?</span>
-                    <p class="mb-4"> Due to the anonymity of the survey, you are unable to find the pending email addresses. You can go to the Dashboard, click the Send Reminder button to the survey code who has not submitted the survey.</p>
-                
 
-                    <span class="heading">5. Is there any paper survey instead of the online survey for my company to complete? </span>
-                    <p class="mb-4"> The survey is only available online. No paper surveys will be accepted. </p>
-                
+                <span class="heading">3. How can I know the progress of my company in completing the survey?</span>
+                <p class="mb-4">You can log in to your account to see the latest updates about the progress. Due to the confidentiality of the process, you will only know the number of respondents who submitted or haven’t submitted the survey by the survey code number. </p>
 
-                    <span class="heading">6. What languages are the Surveys in?</span>
-                    <p class="mb-4">The languages (English, Chinese, Vietnamese, Korean, Bahasa Malaysia, Thailand) are supported</p>
+
+                <span class="heading">4. How do I remind my respondents to complete the survey?</span>
+                <p class="mb-4">  Due to the anonymity of the survey, you are unable to find the pending email addresses. You can go to the <a href="dashboard">Dashboard</a>, click the <button class="btn badge badge-outline badge-outline-info p-2 m-1">Send Reminder</button>
+  button to the survey code who has not submitted the survey.</p>
+
+
+                <span class="heading">5. Is there any paper survey instead of the online survey for my company to complete? </span>
+                <p class="mb-4"> The survey is only available online. No paper surveys will be accepted. </p>
+
+
+                <span class="heading">6. What languages are the Surveys in?</span>
+                <p class="mb-4">(English, Chinese, Vietnamese, Korean, Bahasa Malaysia, Thailand)languages are supported</p>
+
+                <h3 class="heading">Have Other Questions for Us?</h3>
+                <p class="mb-4">You can write in to our support team to resolve your enquiries or report any technicality issues.</p>
+
+                <div class="ul-widget4__item ul-widget4__users">
+                        <div class="ul-widget4__img ml-3"><img id="userDropdown" src="<?php echo base_url(); ?>/public/assets/images/vector-email.png" alt="alt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" /></div>
+                        <div class="ul-widget2__info ul-widget4__users-info text-left">
+                            <h5 class="heading">
+                        Email us at:</h5><a class="ul-widget2__title text-14" href="mailto:support@teamhr.org">support@teamhr.org</a>
+                        </div>
                 </div>
+
+                <div class="col-md-10">
+                    <p style="font-size: 11px; line-height: 1.4;">Please note, we are able to respond much faster during our support hour 10AM - 6PM (GMT+ 8), Monday through Friday, except Malaysian public holiday.</p>
+                </div>
+            </div>
         </div>
         <div class="col-md-4 wow animated animated" style="visibility: visible; display: flex; align-items: center;">
-        <!-- <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s"> -->
+            <!-- <div class="col-md-4 wow animate__slideInRight" data-wow-duration="2s"> -->
             <img src="http://teamhr.org/public/assets/images/faq-block.png">
         </div>
+        
+    
+        
     </div>
   </div>
 
@@ -177,7 +196,7 @@
     line-height: 0.6;
     text-align: right;
     float: right;
-    font-size: 30px;">&times;</span><div class="row text-center mt-5 justify-content-center p-3">
+    font-size: 30px;">&times;</span><div class="row text-center mt-5 justify-content-center p-3" style="margin-bottom: 50px;">
         <div class="col-lg-10 col-md-10 col-sm-12 wow">
         <!-- <div class="col-lg-10 col-md-10 col-sm-12 wow animate__fadeInUp" data-wow-duration="2s"> -->
             <h3 class="mb-4 text-center text-28 f-26">Why T.E.A.M</h3>
@@ -213,6 +232,7 @@
             <p class="mb-4">The T.E.A.M questionnaires are a combination of 35 analytical questions and free-text response options that can rapidly pinpoint the issues that contribute to underperformance and keep performers focused.
 </p>
         </div>
+      
     </div>
   </div>
 
