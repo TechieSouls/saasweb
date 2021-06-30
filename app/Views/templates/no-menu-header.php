@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $title ?></title>
+    <link rel="shortcut icon" type="image/jpg" href="<?php echo base_url(); ?>/public/assets/images/fav_icon.jpg?v=2"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>/public/assets/css/themes/lite-blue.min.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/custom.css?t=<?= time(); ?>" rel="stylesheet" />
@@ -25,7 +26,7 @@
                     <div class="row">
                         <div class="col-md-12">    
                             <nav class="navbar navbar-expand-lg navbar-light">
-                                <a class="navbar-brand mr-5 ml-3" href="main"><img src="<?php echo base_url(); ?>/public/assets/images/logo.png" class="logo"/></a>
+                                <a class="navbar-brand mr-5 ml-3" href="/"><img src="<?php echo base_url(); ?>/public/assets/images/logo.png" class="logo"/></a>
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                         <div class="navbar-toggler-icon">
                                             <div></div>

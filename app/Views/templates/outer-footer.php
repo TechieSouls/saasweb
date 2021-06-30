@@ -65,7 +65,7 @@
        
         <div class="col-md-10 border-top"></div>
         <!--div class="row border-top"-->
-            <div class="col-md-5 col-sm-11 text-11 text-left p-4">© Copyright Business Media International <?= date('Y'); ?>. All Rights Reserved.</div>
+            <div class="col-md-5 col-sm-11 text-11 text-left p-4">© Copyright Audience Analytics <?= date('Y'); ?>. All Rights Reserved.</div>
             <div class="col-md-5 col-sm-11 text-right p-4 text-left-m">
                 <a class="tw-link" href="#">
                     <img src="<?php echo base_url(); ?>/public/assets/images/twitter-inactive.png" />

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $title ?></title>
+    <link rel="shortcut icon" type="image/jpg" href="<?php echo base_url(); ?>/public/assets/images/fav_icon.jpg?v=2"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>/public/assets/css/themes/lite-blue.min.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/public/assets/css/custom.css?t=<?= time(); ?>" rel="stylesheet" />
@@ -55,12 +56,12 @@
                             <div class="col-lg-6 col-md-6 col-sm-12 text-primary mb-2">
                                 <div class="wow animate__fadeInDown" data-wow-duration="2s">
         
-                                <h1 class="text-primary text-44 mb-4 f-30">Employee Precision</h1>
+                                <h1 class="text-primary text-44 mb-4 f-30">From Employees to Advocates</h1>
                                 <div class="text-18 mb-5 f-14" style="
-    max-width: 500px;">Harness deep insights what matters to people at work.
-                                    Create a faster and sustainable company performance.</div>
+    max-width: 500px;">Harness deep insights on what matters to people at work. 
+Real-time, as often as you like. </div>
                                     <a class="btn bg-color-397DD6 pl-5 pr-5 pt-3 pb-3 text-white text-17 mr-3 f-14 mobile-btn" style="background-color: #285ea7 !important; 
-    font-weight: 700;" type="button" href="https://dev.cenesgroup.com/saas-dev/index.php/saas/signup">Join Survey</a>
+    font-weight: 700;" type="button" href="https://dev.cenesgroup.com/saas-dev/index.php/saas/signup">REQUEST DEMO</a>
                                     <!-- <button class="btn btn-outline-primary pl-5 pr-5 pt-3 pb-3 text-primary text-17 border-primary f-14 thick-border mobile-btn" type="button">Learn How</button> -->
         
                                 </div>

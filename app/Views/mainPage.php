@@ -1,12 +1,11 @@
 <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <h3 class="mb-4 text-center text-32 f-26 wow animate__fadeInLeft" data-wow-duration="2s">Empower Your Team with Right Data</h3>
-                <p class="text-14 f-12 wow animate__fadeInRight" data-wow-duration="2s">Total Engagement Assessment Model (TEAM) is a robust, proven and scalable assessment tool to help you better understand your workforce. Developed in partnership with leading thought leaders and industry practitioners; TEAM has now been deployed to over 1.5 million employees across Asia and is the core determinant of the HR Asia Best Companies to Work for in Asia, while serving as a valuable assessment tool, feedback loop and validation for your other annual surveys. <br/> <br/>
+                <h3 class="mb-4 text-center text-32 f-26 wow animate__fadeInLeft" data-wow-duration="2s">20,000 Employers and Growing</h3>
+                <p class="text-14 f-12 wow animate__fadeInRight" data-wow-duration="2s">Total Engagement Assessment Model – TEAM is a robust, proven and scalable assessment tool to help you better understand your workforce.  <br/> <br/>
 
-                The main purpose of taking on the total engagement assessment model is to get deep insights into what drives engagement in your organization—and what could possibly be hindering it. In a nutshell, companies have a good shot at keeping their employees satisfied and retained with the help of employee engagement surveys. <br/> <br/>
-
-                With an accurate measure of employee engagement, HR teams can take meaningful action on what matters to people at work. </p>
+                Developed in partnership with leading thought leaders and industry practitioners; TEAM has now been deployed to over 1.5 million employees across 20,000+ organizations, serving as a valuable assessment tool, feedback loop and validation for your employee experience and engagement. <br/> <br/>
+ </p>
             </div>
         </div>
 
@@ -37,9 +36,11 @@
                     <div class="ul-widget__head-toolbar">
                         <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold ul-widget-nav-tabs-line ul-widget-nav-tabs-line border-0" role="tablist">
                             <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link active" data-toggle="tab" href="#ul-widget2-tab1-content" role="tab">Real-time actionable insights</a></li>
+<!--                            <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Simple, intuitive dashboard</a></li>-->
                             <li class="nav-item wow animate__fadeInTopLeft" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab2-content" role="tab">Market specific landscape</a></li>
                             <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab3-content" role="tab">Employee feedback analysis</a></li>
                             <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Reduce unwanted attrition</a></li>
+                           <!-- <li class="nav-item wow animate__fadeInTopRight" data-wow-duration="3s"><a class="nav-link" data-toggle="tab" href="#ul-widget2-tab4-content" role="tab">Anywhere, anytime</a></li>-->
                         </ul>
                     </div>
                 </div> <!--  ul-widget__head -->
@@ -51,9 +52,7 @@
                                     <div class="">
                                         <div class="card-body d-flex align-items-center">
                                             <div class="col-md-6 text-left">
-                                            AI-powered employee feedback surveys give you engagement insights automatically right after the survey is taken. The managers get to act quickly on real-time data to address problems. As the data flows into the system, it starts showing you all the key drivers that you need to move in order to see the biggest impact on employee engagement.
-
-
+                                            TEAM’s AI-powered employee engagement assessment provides you with engagement insights in real-time. Take action quickly based on real-time data to address problems. 
                                             </div>
                                             <div class="col-md-6">
                                                 <img src="<?php echo base_url(); ?>/public/assets/images/bitmap.png"  />
@@ -65,13 +64,32 @@
                             </div><!-- ul-widget1  -->
                         </div>
 
+                    
+                        <!--<div class="tab-pane active" id="ul-widget2-tab1-content">
+                            <div class="ul-widget1">
+                                <div class="ul-widget2__item">
+                                    <div class="">
+                                        <div class="card-body d-flex align-items-center">
+                                            <div class="col-md-6 text-left">
+                                            View your employee engagement scores in a simple, intuitive dashboard that can be screenshot and used in your internal reports. See the data changes real-time as each assessment is completed.
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="<?php echo base_url(); ?>/public/assets/images/bitmap.png"  />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>--><!-- ul-widget1  -->
+                        
+
                     <div class="tab-pane" id="ul-widget2-tab2-content">
                         <div class="ul-widget1">
                             <div class="ul-widget2__item">
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        Our algorithm offer you the industry specific bench mark from over 50,000 companies across Asia. You can also get a deeper level of insight through our tailored report by comparing your company with the award winning corperates “Best company to work for in Asia”.
+                                        Our algorithm offers you industry-specific benchmark from over 20,000 organizations across a wide-spectrum of industries. With the Pro Version, get a deeper level of insight through our tailored report by comparing your organization results against your industry and market (*availability varies by industry / market).
 
                                         </div>
                                         <div class="col-md-6">
@@ -90,7 +108,7 @@
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        Artificial intelligence and machine learning help you find hidden deep insights from open-ended employee feedback. The intelligent analytics make it possible to know about the topics your employees are talking about even without going through the feedback. This helps you immediately understand which part of your employee engagement strategy you need to focus the most.
+                                        TEAM’s AI and machine learning algorithm help you discover hidden insights from open-ended employee feedback. View as a heatmap, key discussion topics and feedbacks at-a-glance. This helps you and the team to understand rapidly the key areas of improvement.
 
 
                                         </div>
@@ -110,7 +128,7 @@
                                 <div class="">
                                     <div class="card-body d-flex align-items-center">
                                         <div class="col-md-6 text-left">
-                                        The AI-powered engagement surveys make employee retention easier by informing you about the unhappy employees in real-time. You get to know about their challenges and problem areas instantly. You just need to make efforts in the right direction and pull the right levers to increase the engagement of unhappy employees. This help
+                                        TEAM’s AI-powered employee engagement assessment makes employee retention easier by identifying unhappy employees in real-time. Get to know their challenges and concerns instantly so you can take corrective action to retain them.
 
                                         </div>
                                         <div class="col-md-6">
@@ -137,23 +155,23 @@
         <div class="row text-center justify-content-center mt-5" id="pricing">
             <div class="col-md-12 col-sm-8 text-center mt-5">
                 <div class="wow animate__zoomIn" data-wow-duration="2s">
-                    <h3 class="mb-4 text-center text-28 f-26">Plans & Pricing</h3>
-                    <p class="text-18 f-14">That Meet Your Needs</p>
+                    <h3 class="mb-4 text-center text-28 f-26">One Flat Fee</h3>
+                    <p class="text-18 f-14">for Year-Round Engagement</p>
                 </div>
                 <section class="widget-app w-100" id="bg-shape">
-                            <div class="row text-center justify-content-center">
+                            <div class="row text-center justify-content-center" style="margin: auto !important; width:90%;">
                                 <div class="col-lg-3 col-md-4 mb-4">
                                     <div class="card rounded-0 price-card wow animate__fadeInBottomLeft" data-wow-duration="2s"> 
                                         <div class="card-body">
                                         <!-- 1 -->
-                                            <div class="text-22 f-weight-400">FREE DEMO</div> 
-                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>0</span>
-                                            <p class="text-14 f-12">Free 5 survey participants<!-- Accessible permanently --></p>
+                                            <div class="text-22 f-weight-400">DEMO</div> 
+                                            <span class="text-color-57A4FF cost-plan f-35" style="font-size: 40px;"><sup class="text-20 f-14"></sup>FREE</span>
+                                            <p class="text-14 f-12">Limited to 5 employees<!-- Accessible permanently --></p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
                                             
-                                                — Send Surveys<br/>
-                                                — 5 sample questions<br/>
-                                                — Dashboard<br/>
+                                                — Send survey invites automatically<br/>
+                                                — Limited to 5 sample questions<br/>
+                                                — Real-time dashboard<br/>
                                             </p>
                                             <div class="">
                                                 <a href="#" type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200">Create Account</a>
@@ -166,19 +184,19 @@
                                         <div class="card-body">
                                         <!-- 2 -->
                                             <div class="text-22 f-weight-500">BASIC</div> 
-                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>99</span>
-                                            <p class="text-14 f-12"><!-- 12-Month accessibility -->Free 50 survey participants</p>
+                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>99</span>/ annum
+                                            <p class="text-14 f-12"><!-- 12-Month accessibility -->Limited to 50 employees</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
                                                 
-                                                — All features in Free Trial plan<br/> 
-                                                — Real-Time result<br/>
-                                                — View Online Analysis<br/>
-                                                — Scoring System<br/>
-                                                — Export Survey Data<br/>
+                                                — Send survey invites automatically<br/> 
+                                                — Real-time dashboard<br/>
+                                                — View online analysis<br/>
+                                                — Instant scoring<br/>
+                                                — Export survey data<br/>
                                                 — Answer validation<br/>
-                                                — Survey Reminder<br/>
+                                                — Survey reminder<br/>
                                                 — Email notification<br/>
-                                                — 24/7 Email Support<br/>
+                                                — 24/7 email support<br/>
                                                 <br/>
                                             </p>
                                             <div class="">
@@ -191,20 +209,20 @@
                                 <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
                                         <div class="card-body">
                                         <!-- 3 -->
-                                            <div class="text-22 f-weight-500">ADVANCE</div> 
-                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>199</span>
-                                            <p class="text-14 f-12"><!-- 12-Month accessibility --> Free 150 survey participants</p>
+                                            <div class="text-22 f-weight-500">Pro</div> 
+                                            <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>199</span>/ annum
+                                            <p class="text-14 f-12"><!-- 12-Month accessibility --> Limited to 150 employees</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
                                                 
-                                                — All features in Basic Plan plan<br/> 
+                                                — All features in Basic Plan plus<br/> 
                                                 — Video and image questions<br/>
-                                                — AI Feedback Analysis<br/>
-                                                — Employee Happiness Scoring<br/>
+                                                — AI feedback analysis<br/>
+                                                — Employee happiness scoring<br/>
                                                 — Filter and compare result<br/>
-                                                — Add 3 "My Favourite Questions"<br/>
-                                                — Respondent notification<br/>
+                                                — Add 3 “My Favorite Questions”<br/>
+                                                — Respond notification<br/>
                                                 — Customised thank you screen<br/>
-                                                — Prioritise support<br/>
+                                                — Prioritised support<br/>
                                                 — Online training video<br/>
                                             </p>
                                             <div class="">
@@ -219,6 +237,28 @@
                                         </div>
                                     </div>
                                 </div>
+                                
+                             <!--   <div class="col-lg-3 col-md-4 mb-4">
+                                <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
+                                        <div class="card-body">
+                                            <div class="text-22 f-weight-500">ENTERPRISE</div> 
+                                            <span class="text-color-57A4FF cost-plan f-35" style="font-size: 40px;"><sup class="text-20 f-14"></sup>Enquire</span>
+                                            <p class="text-14 f-12"> Unlimited</p>
+                                            <p class="text-left d-inline-block line-height-2 text-color-3B4750">
+                                               
+                                            </p>
+                                            <div class="">
+                                                <a type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200" style="
+    cursor: unset;
+    background-color: #fff !important;
+    border-bottom-width: 2px;
+    border-color: #397dd6;
+    color: #111 !important;
+    opacity: 0.5;">Coming Soon</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
                             </div>
                 </section>
         
@@ -226,10 +266,10 @@
 
             </div>
             <div class="col-md-10 col-sm-8 mt-5">
-                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s" style="margin-bottom:38px;">Over 1000 Clients From<br/>All Over Asia</h3>
+                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s" style="margin-bottom:38px;">Over 20,000 Employers<br/>and Growing</h3>
                 <!-- <p class="text-18 f-14 wow animate__zoomIn" data-wow-duration="2s">Real testimonials from improved companies</p> -->
 
-                <ul class="row clients">
+                <ul class="row clients faded-box">
 
                     <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
                         <img src="<?php echo base_url(); ?>/public/assets/images/Logo1.jpg" class="mb-3" style="
@@ -441,8 +481,8 @@
 
 
 
-
-
+<!-- fade div -->
+<p class="hide"></p>
 
                     
 

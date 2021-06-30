@@ -97,7 +97,7 @@ font-weight: 400;
     font-family: 'Roboto Mono';
 }
 .price-card{
-    min-height: 631px;
+    min-height: 536px;
     max-height: 750px;
     transition: transform .2s;
 }
@@ -222,6 +222,25 @@ color: #397DD6;
 .clientC > p{
     font-size: 10px !important;
     height: auto
+}
+
+/* hide clients */
+
+.faded-box {
+  max-height: 950px;
+  position: relative;
+  overflow: hidden;
+}
+.faded-box .hide { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 300px 0; 
+	
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, white);
 }
 
 
