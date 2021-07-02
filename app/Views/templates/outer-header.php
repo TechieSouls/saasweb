@@ -54,9 +54,9 @@
                     <?php if (strpos(base_url(uri_string()), 'contactus') == false)  { ?>
                         <div class="row ml-4 mt-5 banner-container pr-5 ">
                             <div class="col-lg-6 col-md-6 col-sm-12 text-primary mb-2">
-                                <div class="wow animate__fadeInDown" data-wow-duration="2s">
+                                <div class="wow animate__fadeInDown" data-wow-duration="2s" style="color: white; margin-top: 112px;">
         
-                                <h1 class="text-primary text-44 mb-4 f-30">From Employees to Advocates</h1>
+                                <h1 class="text-44 mb-4 f-30">From Employees to Advocates</h1>
                                 <div class="text-18 mb-5 f-14" style="
     max-width: 500px;">Harness deep insights on what matters to people at work. 
 Real-time, as often as you like. </div>

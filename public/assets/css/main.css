@@ -3,8 +3,10 @@
   
 .header-cover-bg {
 
+/*
     background-image: url(../../assets/images/main-page-header.png);
     height: 580px !important;
+*/
     position: absolute;
     width: 100%;
     background-repeat: no-repeat;
@@ -22,7 +24,13 @@
 /* .head{height: 750px;} */
 
 .banner-container {
-    margin-top: 7rem !important;
+    margin: 0rem !important;
+    width: 100%;
+    height: 100%;
+    background-color: #18174F;
+    padding-left: 3%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .dashboardbannerimg {
     max-width: 680px;
@@ -205,7 +213,8 @@ color: #397DD6;
 .clientC{
     display: flex;
     align-items: center;
-    height: auto
+    height: auto;
+    box-shadow: none;
 }
 
 .clientC < ul{
@@ -227,11 +236,24 @@ color: #397DD6;
 /* hide clients */
 
 .faded-box {
-  max-height: 950px;
+/*border: 1px #d8d8d8 dashed;
+  font: 2em/1.6em Arial;*/
   position: relative;
-  overflow: hidden;
 }
-.faded-box .hide { 
+
+.faded-box:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%);
+  width: 100%;
+  height: 30em;
+}
+/*
+.faded-box .fade { 
   position: absolute; 
   bottom: 0; 
   left: 0;
@@ -239,9 +261,10 @@ color: #397DD6;
   text-align: center; 
   margin: 0; padding: 300px 0; 
 	
-  /* "transparent" only works here because == rgba(0,0,0,0) */
+   "transparent" only works here because == rgba(0,0,0,0) 
   background-image: linear-gradient(to bottom, transparent, white);
 }
+*/
 
 
 

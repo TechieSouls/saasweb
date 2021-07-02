@@ -160,13 +160,13 @@
                 </div>
                 <section class="widget-app w-100" id="bg-shape">
                             <div class="row text-center justify-content-center" style="margin: auto !important; width:90%;">
-                                <div class="col-lg-3 col-md-4 mb-4">
+                               <!-- <div class="col-lg-3 col-md-4 mb-4">
                                     <div class="card rounded-0 price-card wow animate__fadeInBottomLeft" data-wow-duration="2s"> 
                                         <div class="card-body">
-                                        <!-- 1 -->
+                                        
                                             <div class="text-22 f-weight-400">DEMO</div> 
                                             <span class="text-color-57A4FF cost-plan f-35" style="font-size: 40px;"><sup class="text-20 f-14"></sup>FREE</span>
-                                            <p class="text-14 f-12">Limited to 5 employees<!-- Accessible permanently --></p>
+                                            <p class="text-14 f-12">Limited to 5 employees Accessible permanently </p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
                                             
                                                 — Send survey invites automatically<br/>
@@ -178,7 +178,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card wow animate__zoomIn" data-wow-duration="2s"> 
                                         <div class="card-body">
@@ -209,7 +209,7 @@
                                 <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
                                         <div class="card-body">
                                         <!-- 3 -->
-                                            <div class="text-22 f-weight-500">Pro</div> 
+                                            <div class="text-22 f-weight-500">PRO</div> 
                                             <span class="text-color-57A4FF cost-plan f-44"><sup class="text-20 f-14">$</sup>199</span>/ annum
                                             <p class="text-14 f-12"><!-- 12-Month accessibility --> Limited to 150 employees</p>
                                             <p class="text-left d-inline-block line-height-2 text-color-3B4750">
@@ -238,7 +238,7 @@
                                     </div>
                                 </div>
                                 
-                             <!--   <div class="col-lg-3 col-md-4 mb-4">
+                                <div class="col-lg-3 col-md-4 mb-4">
                                 <div class="card rounded-0 price-card wow animate__fadeInBottomRight" data-wow-duration="2s"> 
                                         <div class="card-body">
                                             <div class="text-22 f-weight-500">ENTERPRISE</div> 
@@ -249,16 +249,16 @@
                                             </p>
                                             <div class="">
                                                 <a type="button" class="btn btm-primary bg-color-397DD6 text-white rounded-0 pl-4 pr-4 mt-3 font-fam-roboto text-16 width-200" style="
-    cursor: unset;
-    background-color: #fff !important;
-    border-bottom-width: 2px;
-    border-color: #397dd6;
-    color: #111 !important;
-    opacity: 0.5;">Coming Soon</a>
+                                                cursor: unset;
+                                                background-color: #fff !important;
+                                                border-bottom-width: 2px;
+                                                border-color: #397dd6;
+                                                color: #111 !important;
+                                                opacity: 0.5;">Coming Soon</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>-->
+                                </div>
                             </div>
                 </section>
         
@@ -266,223 +266,705 @@
 
             </div>
             <div class="col-md-10 col-sm-8 mt-5">
-                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s" style="margin-bottom:38px;">Over 20,000 Employers<br/>and Growing</h3>
+                <h3 class="mb-4 text-center text-28 f-26 mt-5 wow animate__bounce" data-wow-duration="2s" style="margin-bottom:38px;">Over 20,000 Employers and Growing</h3>
                 <!-- <p class="text-18 f-14 wow animate__zoomIn" data-wow-duration="2s">Real testimonials from improved companies</p> -->
 
                 <ul class="row clients faded-box">
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/Logo1.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; ">
-                        ASSOCIATION OF INTERNATIONAL CERTIFIED PROFESSIONAL ACCOUNTANTS
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(1).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo2.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s;">
-                        BANK KERJASAMA RAKYAT MALAYSIA BERHAD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(2).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo3.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; ">
-                        ARVATO SYSTEMS MALAYSIA SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(3).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo4.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s;  padding-top: 10px">
-                        COCA COLA BOTTLERS (MALAYSIA) SDN BHD
-
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(4).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo5.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        DHL ASIA PACIFIC SHARED SERVICES
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(5).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo6.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        INTEL MALAYSIA SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(6).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo7.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        LAZADA MALAYSIA SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(7).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo8.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        RHB BANK BERHAD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(8).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo9.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        SAMSUNG MALAYSIA ELECTRONICS (SME) SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(9).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo10.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        SARAWAK ENERGY BERHAD
-
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(10).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo11.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        AIRASIA GROUP
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(11).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo12.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        AIRASIA GROUP
-
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(12).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo13.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        MCDONALD'S MALAYSIA
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(13).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo14.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        ABBVIE SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(14).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo15.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        JAKEL TRADING SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(15).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo16.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        PUMA SPORTS GOODS SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(16).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
                     </li>       
 
 
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo17.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        THAI ODYSSEY SDN BHD
-
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(17).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo18.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        UNILEVER MALAYSIA
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(18).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+                    
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(19).jpg" class="mb-3" style="
+    max-width: 100px;">
+                   
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo19.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        UMW CORPORATION SDN BHD
-
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(20).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
                     </li>       
 
 
 
-                    <li class="card rounded-0 pb-3 col-6 col-md-3 col-sm-6 col-xs-6 center clientC">
-                        <img src="<?php echo base_url(); ?>/public/assets/images/logo20.jpg" class="mb-3" style="
-    max-width: 133px;">
-                        <p class="text-16 f-12 wow animate__zoomIn" data-wow-duration="2s" style="font-weight: 700;color: #888;visibility: visible; animation-duration: 2s; padding-top: 10px">
-                        AUO SUNPOWER SDN BHD
-                        </p>
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(21).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
                     </li>       
 
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(22).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(23).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(24).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(25).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(26).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(27).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(28).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(29).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(30).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(31).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(32).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(33).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(34).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(35).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(36).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(37).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(38).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+                    
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(39).jpg" class="mb-3" style="
+    max-width: 100px;">
+                   
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(40).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(41).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(42).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(43).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(44).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(45).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(46).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(47).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(48).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(49).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(50).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(51).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(52).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(53).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(54).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(55).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(56).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(57).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(58).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+                    
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(59).jpg" class="mb-3" style="
+    max-width: 100px;">
+                   
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(60).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(61).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(62).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(63).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(64).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(65).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(66).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(67).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(68).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(69).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(70).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(71).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(72).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(73).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(74).jpg" class="mb-3" style="
+    max-width: 100px;">
+                       
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(75).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(76).jpg" class="mb-3" style="
+    max-width: 100px;">
+                      
+                    </li>       
+
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(77).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(78).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+                    
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(79).jpg" class="mb-3" style="
+    max-width: 100px;">
+                   
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(80).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(81).jpg" class="mb-3" style="
+    max-width: 100px;">
+                        
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(82).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
+
+
+                    
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(83).jpg" class="mb-3" style="
+    max-width: 100px;">
+                   
+                    </li>       
+
+
+
+                    <li class="card rounded-0 pb-3 col-4 col-lg-1 col-md-2 col-sm-4 col-xs-4 center clientC">
+                        <img src="<?php echo base_url(); ?>/public/assets/images/_(84).jpg" class="mb-3" style="
+    max-width: 100px;">
+                     
+                    </li>       
 
 
 <!-- fade div -->
-<p class="hide"></p>
+ <p class="fade"></p> 
 
                     
 
